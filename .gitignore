@@ -1,3 +1,4 @@
 # directories
 target/
 .idea/
+src/test/

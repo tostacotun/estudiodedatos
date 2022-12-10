@@ -10,8 +10,9 @@ public class Main {
         test.Lecturacsvsimple();*/
 
 //        leyendo un csv
-        Lecturaconcsvapachecommons test = new Lecturaconcsvapachecommons();
-        test.parserApachaCommons();
+//
+
+        // JSON
 
 
     }

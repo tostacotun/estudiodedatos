@@ -1,0 +1,2328 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "syfm-bqhq",
+      "name" : "CALIDAD DE AGUA",
+      "assetType" : "dataset",
+      "attributionLink" : "https://www.datos.gov.co/d/syfm-bqhq",
+      "averageRating" : 0,
+      "category" : "Vivienda, Ciudad y Territorio",
+      "createdAt" : 1580325956,
+      "description" : "Histórico consolidado corte Julio  2022",
+      "displayType" : "table",
+      "downloadCount" : 128,
+      "hideFromCatalog" : false,
+      "hideFromDataJson" : false,
+      "newBackend" : true,
+      "numberOfComments" : 0,
+      "oid" : 38296990,
+      "provenance" : "official",
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1647966693,
+      "publicationGroup" : 16859850,
+      "publicationStage" : "published",
+      "rowsUpdatedAt" : 1660681497,
+      "rowsUpdatedBy" : "htyq-8hxr",
+      "tableId" : 18622274,
+      "totalTimesRated" : 0,
+      "viewCount" : 763,
+      "viewLastModified" : 1660681496,
+      "viewType" : "tabular",
+      "approvals" : [ {
+        "reviewedAt" : 1637378947,
+        "reviewedAutomatically" : false,
+        "state" : "approved",
+        "submissionId" : 4529035,
+        "submissionObject" : "public_audience_request",
+        "submissionOutcome" : "change_audience",
+        "submittedAt" : 1637274254,
+        "workflowId" : 2188,
+        "reviewer" : {
+          "id" : "r4qn-dwdd",
+          "displayName" : "Ministerio de Tecnologías de la Información y las Comunicaciones"
+        },
+        "submissionDetails" : {
+          "permissionType" : "read"
+        },
+        "submissionOutcomeApplication" : {
+          "endedAt" : 1637378947,
+          "failureCount" : 0,
+          "startedAt" : 1637378947,
+          "status" : "success"
+        },
+        "submitter" : {
+          "id" : "htyq-8hxr",
+          "displayName" : "EMPRESA IBAGUEREÑA DE ACUEDUCTO Y ALCANTARILLADO IBAL SA ESP OFICIAL"
+        }
+      } ],
+      "clientContext" : {
+        "clientContextVariables" : [ ],
+        "inheritedVariables" : { }
+      },
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : 557773001,
+        "name" : "NUQFUS",
+        "dataTypeName" : "number",
+        "description" : "",
+        "fieldName" : "nuqfus",
+        "position" : 1,
+        "renderTypeName" : "number",
+        "tableColumnId" : 94027137,
+        "cachedContents" : {
+          "non_null" : "258",
+          "largest" : "1124",
+          "null" : "0",
+          "top" : [ {
+            "item" : "1123",
+            "count" : "86"
+          }, {
+            "item" : "1122",
+            "count" : "86"
+          }, {
+            "item" : "1124",
+            "count" : "86"
+          } ],
+          "smallest" : "1122",
+          "count" : "258",
+          "cardinality" : "3"
+        },
+        "format" : { }
+      }, {
+        "id" : 557773002,
+        "name" : "FECHA DE LA MEDICION",
+        "dataTypeName" : "text",
+        "description" : "",
+        "fieldName" : "fecha_de_la_medicion",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 94027138,
+        "cachedContents" : {
+          "non_null" : "258",
+          "largest" : "2022-07-19T00:00:00.000",
+          "null" : "0",
+          "top" : [ {
+            "item" : "2020-11-18T00:00:00.000",
+            "count" : "3"
+          }, {
+            "item" : "2020-12-16T00:00:00.000",
+            "count" : "3"
+          }, {
+            "item" : "2018-03-14T00:00:00.000",
+            "count" : "3"
+          }, {
+            "item" : "2019-06-19T00:00:00.000",
+            "count" : "3"
+          }, {
+            "item" : "2021-07-28T00:00:00.000",
+            "count" : "3"
+          }, {
+            "item" : "2019-04-24T00:00:00.000",
+            "count" : "3"
+          }, {
+            "item" : "2018-04-18T00:00:00.000",
+            "count" : "3"
+          }, {
+            "item" : "2015-07-15T00:00:00.000",
+            "count" : "3"
+          }, {
+            "item" : "2020-09-16T00:00:00.000",
+            "count" : "3"
+          }, {
+            "item" : "2017-01-25T00:00:00.000",
+            "count" : "3"
+          }, {
+            "item" : "2017-05-17T00:00:00.000",
+            "count" : "3"
+          }, {
+            "item" : "2015-12-02T00:00:00.000",
+            "count" : "3"
+          }, {
+            "item" : "2017-12-13T00:00:00.000",
+            "count" : "3"
+          }, {
+            "item" : "2021-08-25T00:00:00.000",
+            "count" : "3"
+          }, {
+            "item" : "2015-10-14T00:00:00.000",
+            "count" : "3"
+          }, {
+            "item" : "2022-01-19T00:00:00.000",
+            "count" : "3"
+          }, {
+            "item" : "2016-08-17T00:00:00.000",
+            "count" : "3"
+          }, {
+            "item" : "2016-05-18T00:00:00.000",
+            "count" : "3"
+          }, {
+            "item" : "2019-12-18T00:00:00.000",
+            "count" : "3"
+          }, {
+            "item" : "2016-11-26T00:00:00.000",
+            "count" : "3"
+          } ],
+          "smallest" : "2015-01-14T00:00:00.000",
+          "count" : "258",
+          "cardinality" : "98"
+        },
+        "format" : { }
+      }, {
+        "id" : 557773003,
+        "name" : "NOMBRE DEL LABORATORIO",
+        "dataTypeName" : "text",
+        "description" : "",
+        "fieldName" : "nombre_del_laboratorio",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 94027139,
+        "cachedContents" : {
+          "non_null" : "258",
+          "largest" : "IBAL",
+          "null" : "0",
+          "top" : [ {
+            "item" : "IBAL",
+            "count" : "258"
+          } ],
+          "smallest" : "IBAL",
+          "count" : "258",
+          "cardinality" : "1"
+        },
+        "format" : { }
+      }, {
+        "id" : 557773004,
+        "name" : "TIPO DE LABORATORIO",
+        "dataTypeName" : "number",
+        "description" : "",
+        "fieldName" : "tipo_de_laboratorio",
+        "position" : 4,
+        "renderTypeName" : "number",
+        "tableColumnId" : 94027140,
+        "cachedContents" : {
+          "non_null" : "258",
+          "largest" : "1",
+          "null" : "0",
+          "top" : [ {
+            "item" : "1",
+            "count" : "258"
+          } ],
+          "smallest" : "1",
+          "count" : "258",
+          "cardinality" : "1"
+        },
+        "format" : { }
+      }, {
+        "id" : 557773005,
+        "name" : "PH",
+        "dataTypeName" : "number",
+        "description" : "",
+        "fieldName" : "ph",
+        "position" : 5,
+        "renderTypeName" : "number",
+        "tableColumnId" : 94027141,
+        "cachedContents" : {
+          "non_null" : "258",
+          "largest" : "8.60",
+          "null" : "0",
+          "top" : [ {
+            "item" : "7.95",
+            "count" : "9"
+          }, {
+            "item" : "8.01",
+            "count" : "8"
+          }, {
+            "item" : "8.24",
+            "count" : "8"
+          }, {
+            "item" : "8.10",
+            "count" : "7"
+          }, {
+            "item" : "8.17",
+            "count" : "7"
+          }, {
+            "item" : "8.12",
+            "count" : "6"
+          }, {
+            "item" : "8.21",
+            "count" : "6"
+          }, {
+            "item" : "8.16",
+            "count" : "6"
+          }, {
+            "item" : "7.93",
+            "count" : "6"
+          }, {
+            "item" : "8.08",
+            "count" : "6"
+          }, {
+            "item" : "8.20",
+            "count" : "6"
+          }, {
+            "item" : "8.22",
+            "count" : "6"
+          }, {
+            "item" : "8.23",
+            "count" : "6"
+          }, {
+            "item" : "8.09",
+            "count" : "6"
+          }, {
+            "item" : "8.18",
+            "count" : "5"
+          }, {
+            "item" : "8.07",
+            "count" : "5"
+          }, {
+            "item" : "8.19",
+            "count" : "5"
+          }, {
+            "item" : "8.11",
+            "count" : "4"
+          }, {
+            "item" : "7.76",
+            "count" : "4"
+          }, {
+            "item" : "8.02",
+            "count" : "4"
+          } ],
+          "smallest" : "3.990",
+          "count" : "258",
+          "cardinality" : "91"
+        },
+        "format" : { }
+      }, {
+        "id" : 557773006,
+        "name" : "TEMPERATURA",
+        "dataTypeName" : "number",
+        "description" : "",
+        "fieldName" : "temperatura",
+        "position" : 6,
+        "renderTypeName" : "number",
+        "tableColumnId" : 94027142,
+        "cachedContents" : {
+          "non_null" : "258",
+          "largest" : "55.9",
+          "null" : "0",
+          "top" : [ {
+            "item" : "18.6",
+            "count" : "14"
+          }, {
+            "item" : "19.1",
+            "count" : "13"
+          }, {
+            "item" : "18.9",
+            "count" : "11"
+          }, {
+            "item" : "18.7",
+            "count" : "11"
+          }, {
+            "item" : "18.4",
+            "count" : "11"
+          }, {
+            "item" : "19.2",
+            "count" : "10"
+          }, {
+            "item" : "19.0",
+            "count" : "10"
+          }, {
+            "item" : "18.8",
+            "count" : "10"
+          }, {
+            "item" : "20.1",
+            "count" : "9"
+          }, {
+            "item" : "19.3",
+            "count" : "8"
+          }, {
+            "item" : "18.5",
+            "count" : "8"
+          }, {
+            "item" : "18.0",
+            "count" : "7"
+          }, {
+            "item" : "20.2",
+            "count" : "7"
+          }, {
+            "item" : "19.6",
+            "count" : "7"
+          }, {
+            "item" : "18.2",
+            "count" : "7"
+          }, {
+            "item" : "20.6",
+            "count" : "7"
+          }, {
+            "item" : "17.8",
+            "count" : "6"
+          }, {
+            "item" : "19.7",
+            "count" : "5"
+          }, {
+            "item" : "18.1",
+            "count" : "5"
+          }, {
+            "item" : "20.0",
+            "count" : "5"
+          } ],
+          "smallest" : "13.0",
+          "count" : "258",
+          "cardinality" : "63"
+        },
+        "format" : { }
+      }, {
+        "id" : 557773036,
+        "name" : "SOLIDOS TOTALES",
+        "dataTypeName" : "text",
+        "description" : "",
+        "fieldName" : "solidos_totales",
+        "position" : 7,
+        "renderTypeName" : "text",
+        "tableColumnId" : 141483011,
+        "cachedContents" : {
+          "non_null" : "258",
+          "largest" : "99.000",
+          "null" : "0",
+          "top" : [ {
+            "item" : "60",
+            "count" : "7"
+          }, {
+            "item" : "56",
+            "count" : "6"
+          }, {
+            "item" : "55.000",
+            "count" : "5"
+          }, {
+            "item" : "33.000",
+            "count" : "5"
+          }, {
+            "item" : "33",
+            "count" : "5"
+          }, {
+            "item" : "30",
+            "count" : "5"
+          }, {
+            "item" : "58",
+            "count" : "5"
+          }, {
+            "item" : "31.000",
+            "count" : "5"
+          }, {
+            "item" : "67",
+            "count" : "4"
+          }, {
+            "item" : "72",
+            "count" : "4"
+          }, {
+            "item" : "50.000",
+            "count" : "4"
+          }, {
+            "item" : "73",
+            "count" : "4"
+          }, {
+            "item" : "31",
+            "count" : "4"
+          }, {
+            "item" : "35.000",
+            "count" : "3"
+          }, {
+            "item" : "51.000",
+            "count" : "3"
+          }, {
+            "item" : "53.000",
+            "count" : "3"
+          }, {
+            "item" : "39",
+            "count" : "3"
+          }, {
+            "item" : "126",
+            "count" : "3"
+          }, {
+            "item" : "28.000",
+            "count" : "3"
+          }, {
+            "item" : "29.000",
+            "count" : "3"
+          } ],
+          "smallest" : "***",
+          "count" : "258",
+          "cardinality" : "146"
+        },
+        "format" : { }
+      }, {
+        "id" : 557773038,
+        "name" : "CONDUCTIVIDAD",
+        "dataTypeName" : "text",
+        "description" : "",
+        "fieldName" : "conductividad",
+        "position" : 8,
+        "renderTypeName" : "text",
+        "tableColumnId" : 141483013,
+        "cachedContents" : {
+          "non_null" : "258",
+          "largest" : "99.900",
+          "null" : "0",
+          "top" : [ {
+            "item" : "92",
+            "count" : "4"
+          }, {
+            "item" : "157",
+            "count" : "4"
+          }, {
+            "item" : "80",
+            "count" : "4"
+          }, {
+            "item" : "355",
+            "count" : "3"
+          }, {
+            "item" : "150",
+            "count" : "3"
+          }, {
+            "item" : "87",
+            "count" : "3"
+          }, {
+            "item" : "153",
+            "count" : "3"
+          }, {
+            "item" : "78",
+            "count" : "3"
+          }, {
+            "item" : "156",
+            "count" : "3"
+          }, {
+            "item" : "90",
+            "count" : "3"
+          }, {
+            "item" : "321",
+            "count" : "2"
+          }, {
+            "item" : "151",
+            "count" : "2"
+          }, {
+            "item" : "139",
+            "count" : "2"
+          }, {
+            "item" : "149",
+            "count" : "2"
+          }, {
+            "item" : "145",
+            "count" : "2"
+          }, {
+            "item" : "97",
+            "count" : "2"
+          }, {
+            "item" : "142",
+            "count" : "2"
+          }, {
+            "item" : "371",
+            "count" : "2"
+          }, {
+            "item" : "85.000",
+            "count" : "2"
+          }, {
+            "item" : "256",
+            "count" : "2"
+          } ],
+          "smallest" : "100.00",
+          "count" : "258",
+          "cardinality" : "194"
+        },
+        "format" : { }
+      }, {
+        "id" : 557773009,
+        "name" : "TURBIEDAD",
+        "dataTypeName" : "number",
+        "description" : "",
+        "fieldName" : "turbiedad",
+        "position" : 9,
+        "renderTypeName" : "number",
+        "tableColumnId" : 94027145,
+        "cachedContents" : {
+          "non_null" : "258",
+          "largest" : "1100",
+          "null" : "0",
+          "top" : [ {
+            "item" : "6.0",
+            "count" : "4"
+          }, {
+            "item" : "4.70",
+            "count" : "3"
+          }, {
+            "item" : "7.12",
+            "count" : "3"
+          }, {
+            "item" : "19.30",
+            "count" : "2"
+          }, {
+            "item" : "5.15",
+            "count" : "2"
+          }, {
+            "item" : "24.30",
+            "count" : "2"
+          }, {
+            "item" : "37.1",
+            "count" : "2"
+          }, {
+            "item" : "15.80",
+            "count" : "2"
+          }, {
+            "item" : "4.41",
+            "count" : "2"
+          }, {
+            "item" : "3.40",
+            "count" : "2"
+          }, {
+            "item" : "3.7",
+            "count" : "2"
+          }, {
+            "item" : "4.34",
+            "count" : "2"
+          }, {
+            "item" : "7.76",
+            "count" : "2"
+          }, {
+            "item" : "6.76",
+            "count" : "2"
+          }, {
+            "item" : "10.50",
+            "count" : "2"
+          }, {
+            "item" : "13.9",
+            "count" : "2"
+          }, {
+            "item" : "2.21",
+            "count" : "2"
+          }, {
+            "item" : "4.1",
+            "count" : "2"
+          }, {
+            "item" : "12.2",
+            "count" : "2"
+          }, {
+            "item" : "7.30",
+            "count" : "2"
+          } ],
+          "smallest" : "1.380",
+          "count" : "258",
+          "cardinality" : "226"
+        },
+        "format" : { }
+      }, {
+        "id" : 557773034,
+        "name" : "COLOR REAL",
+        "dataTypeName" : "text",
+        "description" : "",
+        "fieldName" : "color_real",
+        "position" : 10,
+        "renderTypeName" : "text",
+        "tableColumnId" : 141483009,
+        "cachedContents" : {
+          "non_null" : "258",
+          "largest" : "95",
+          "null" : "0",
+          "top" : [ {
+            "item" : "25",
+            "count" : "7"
+          }, {
+            "item" : "18",
+            "count" : "6"
+          }, {
+            "item" : "21",
+            "count" : "6"
+          }, {
+            "item" : "28",
+            "count" : "6"
+          }, {
+            "item" : "22",
+            "count" : "6"
+          }, {
+            "item" : "33",
+            "count" : "5"
+          }, {
+            "item" : "14",
+            "count" : "5"
+          }, {
+            "item" : "23",
+            "count" : "5"
+          }, {
+            "item" : "18.000",
+            "count" : "4"
+          }, {
+            "item" : "12",
+            "count" : "4"
+          }, {
+            "item" : "13",
+            "count" : "4"
+          }, {
+            "item" : "35",
+            "count" : "4"
+          }, {
+            "item" : "29",
+            "count" : "4"
+          }, {
+            "item" : "24",
+            "count" : "4"
+          }, {
+            "item" : "31",
+            "count" : "3"
+          }, {
+            "item" : "27",
+            "count" : "3"
+          }, {
+            "item" : "42",
+            "count" : "3"
+          }, {
+            "item" : "47",
+            "count" : "3"
+          }, {
+            "item" : "5",
+            "count" : "3"
+          }, {
+            "item" : "22.000",
+            "count" : "3"
+          } ],
+          "smallest" : "101",
+          "count" : "258",
+          "cardinality" : "153"
+        },
+        "format" : { }
+      }, {
+        "id" : 557773011,
+        "name" : "COLIFORMES TOTALES",
+        "dataTypeName" : "number",
+        "description" : "",
+        "fieldName" : "coliformes_totales",
+        "position" : 11,
+        "renderTypeName" : "number",
+        "tableColumnId" : 94027147,
+        "cachedContents" : {
+          "non_null" : "258",
+          "largest" : "241960.000",
+          "null" : "0",
+          "top" : [ {
+            "item" : "38730",
+            "count" : "15"
+          }, {
+            "item" : "34480",
+            "count" : "13"
+          }, {
+            "item" : "241960",
+            "count" : "12"
+          }, {
+            "item" : "61310",
+            "count" : "11"
+          }, {
+            "item" : "36540",
+            "count" : "11"
+          }, {
+            "item" : "43520",
+            "count" : "10"
+          }, {
+            "item" : "30760",
+            "count" : "8"
+          }, {
+            "item" : "32550",
+            "count" : "8"
+          }, {
+            "item" : "86640",
+            "count" : "7"
+          }, {
+            "item" : "77010",
+            "count" : "7"
+          }, {
+            "item" : "51720",
+            "count" : "7"
+          }, {
+            "item" : "24810",
+            "count" : "7"
+          }, {
+            "item" : "26130",
+            "count" : "7"
+          }, {
+            "item" : "57940",
+            "count" : "6"
+          }, {
+            "item" : "41060",
+            "count" : "6"
+          }, {
+            "item" : "46110",
+            "count" : "6"
+          }, {
+            "item" : "81640",
+            "count" : "5"
+          }, {
+            "item" : "48840",
+            "count" : "5"
+          }, {
+            "item" : "54750",
+            "count" : "5"
+          }, {
+            "item" : "21430",
+            "count" : "4"
+          } ],
+          "smallest" : "77.01",
+          "count" : "258",
+          "cardinality" : "89"
+        },
+        "format" : { }
+      }, {
+        "id" : 557773030,
+        "name" : "E. COLI",
+        "dataTypeName" : "text",
+        "description" : "",
+        "fieldName" : "e_coli",
+        "position" : 12,
+        "renderTypeName" : "text",
+        "tableColumnId" : 141483005,
+        "cachedContents" : {
+          "non_null" : "258",
+          "largest" : "9,900",
+          "null" : "0",
+          "top" : [ {
+            "item" : "200",
+            "count" : "13"
+          }, {
+            "item" : "100",
+            "count" : "12"
+          }, {
+            "item" : "310",
+            "count" : "6"
+          }, {
+            "item" : "100.000",
+            "count" : "6"
+          }, {
+            "item" : "630",
+            "count" : "5"
+          }, {
+            "item" : "200.000",
+            "count" : "5"
+          }, {
+            "item" : "0",
+            "count" : "5"
+          }, {
+            "item" : "520",
+            "count" : "5"
+          }, {
+            "item" : "22,470",
+            "count" : "4"
+          }, {
+            "item" : "410",
+            "count" : "4"
+          }, {
+            "item" : "24,810",
+            "count" : "3"
+          }, {
+            "item" : "310.000",
+            "count" : "3"
+          }, {
+            "item" : "3,990",
+            "count" : "3"
+          }, {
+            "item" : "5,650",
+            "count" : "3"
+          }, {
+            "item" : "5,460",
+            "count" : "3"
+          }, {
+            "item" : "5,200",
+            "count" : "2"
+          }, {
+            "item" : "61,310",
+            "count" : "2"
+          }, {
+            "item" : "11,000",
+            "count" : "2"
+          }, {
+            "item" : "11,690",
+            "count" : "2"
+          }, {
+            "item" : "7,890",
+            "count" : "2"
+          } ],
+          "smallest" : "0",
+          "count" : "258",
+          "cardinality" : "174"
+        },
+        "format" : { }
+      }, {
+        "id" : 557773013,
+        "name" : "DEMANDA BIOQUIMICA DE OXIGENO - DBO",
+        "dataTypeName" : "text",
+        "description" : "",
+        "fieldName" : "demanda_bioquimica_de_oxigeno",
+        "position" : 13,
+        "renderTypeName" : "text",
+        "tableColumnId" : 140072971,
+        "cachedContents" : {
+          "non_null" : "258",
+          "largest" : "9",
+          "null" : "0",
+          "top" : [ {
+            "item" : "1",
+            "count" : "65"
+          }, {
+            "item" : "0",
+            "count" : "31"
+          }, {
+            "item" : "2",
+            "count" : "25"
+          }, {
+            "item" : "1.000",
+            "count" : "25"
+          }, {
+            "item" : "0.000",
+            "count" : "21"
+          }, {
+            "item" : "3",
+            "count" : "21"
+          }, {
+            "item" : "***",
+            "count" : "13"
+          }, {
+            "item" : "2.000",
+            "count" : "13"
+          }, {
+            "item" : "4",
+            "count" : "10"
+          }, {
+            "item" : "3.000",
+            "count" : "9"
+          }, {
+            "item" : "6",
+            "count" : "7"
+          }, {
+            "item" : "4.000",
+            "count" : "3"
+          }, {
+            "item" : "10",
+            "count" : "3"
+          }, {
+            "item" : "6.000",
+            "count" : "2"
+          }, {
+            "item" : "13",
+            "count" : "1"
+          }, {
+            "item" : "5",
+            "count" : "1"
+          }, {
+            "item" : "5.000",
+            "count" : "1"
+          }, {
+            "item" : "12",
+            "count" : "1"
+          }, {
+            "item" : "14",
+            "count" : "1"
+          }, {
+            "item" : "8",
+            "count" : "1"
+          } ],
+          "smallest" : "***",
+          "count" : "258",
+          "cardinality" : "24"
+        },
+        "format" : { }
+      }, {
+        "id" : 557773014,
+        "name" : "DEMANDA QUIMICA DE OXIGENO - DQO",
+        "dataTypeName" : "text",
+        "description" : "",
+        "fieldName" : "demanda_quimica_de_oxigeno",
+        "position" : 14,
+        "renderTypeName" : "text",
+        "tableColumnId" : 140072970,
+        "cachedContents" : {
+          "non_null" : "258",
+          "largest" : "g",
+          "null" : "0",
+          "top" : [ {
+            "item" : "2",
+            "count" : "34"
+          }, {
+            "item" : "3",
+            "count" : "27"
+          }, {
+            "item" : "1.000",
+            "count" : "23"
+          }, {
+            "item" : "1",
+            "count" : "21"
+          }, {
+            "item" : "2.000",
+            "count" : "13"
+          }, {
+            "item" : "4",
+            "count" : "10"
+          }, {
+            "item" : "3.000",
+            "count" : "9"
+          }, {
+            "item" : "6",
+            "count" : "8"
+          }, {
+            "item" : "5",
+            "count" : "8"
+          }, {
+            "item" : "2.0",
+            "count" : "7"
+          }, {
+            "item" : "1.0",
+            "count" : "7"
+          }, {
+            "item" : "5.000",
+            "count" : "7"
+          }, {
+            "item" : "***",
+            "count" : "7"
+          }, {
+            "item" : "7",
+            "count" : "6"
+          }, {
+            "item" : "6.000",
+            "count" : "6"
+          }, {
+            "item" : "9",
+            "count" : "5"
+          }, {
+            "item" : "4.000",
+            "count" : "5"
+          }, {
+            "item" : "11",
+            "count" : "4"
+          }, {
+            "item" : "8",
+            "count" : "4"
+          }, {
+            "item" : "14",
+            "count" : "3"
+          } ],
+          "smallest" : "***",
+          "count" : "258",
+          "cardinality" : "51"
+        },
+        "format" : { }
+      }, {
+        "id" : 557773031,
+        "name" : "OXIGENO DISUELTO",
+        "dataTypeName" : "text",
+        "description" : "",
+        "fieldName" : "oxigeno_disuelto",
+        "position" : 15,
+        "renderTypeName" : "text",
+        "tableColumnId" : 141483006,
+        "cachedContents" : {
+          "non_null" : "258",
+          "largest" : "9.35",
+          "null" : "0",
+          "top" : [ {
+            "item" : "***",
+            "count" : "31"
+          }, {
+            "item" : "8.100",
+            "count" : "3"
+          }, {
+            "item" : "8.13",
+            "count" : "3"
+          }, {
+            "item" : "8.20",
+            "count" : "3"
+          }, {
+            "item" : "8.28",
+            "count" : "3"
+          }, {
+            "item" : "8.01",
+            "count" : "3"
+          }, {
+            "item" : "8.460",
+            "count" : "2"
+          }, {
+            "item" : "8.270",
+            "count" : "2"
+          }, {
+            "item" : "7.44",
+            "count" : "2"
+          }, {
+            "item" : "7.780",
+            "count" : "2"
+          }, {
+            "item" : "7.98",
+            "count" : "2"
+          }, {
+            "item" : "8.580",
+            "count" : "2"
+          }, {
+            "item" : "7.92",
+            "count" : "2"
+          }, {
+            "item" : "7.790",
+            "count" : "2"
+          }, {
+            "item" : "8.720",
+            "count" : "2"
+          }, {
+            "item" : "8.370",
+            "count" : "2"
+          }, {
+            "item" : "7.87",
+            "count" : "2"
+          }, {
+            "item" : "8.15",
+            "count" : "2"
+          }, {
+            "item" : "5.81",
+            "count" : "2"
+          }, {
+            "item" : "8.36",
+            "count" : "2"
+          } ],
+          "smallest" : "***",
+          "count" : "258",
+          "cardinality" : "191"
+        },
+        "format" : { }
+      }, {
+        "id" : 557773016,
+        "name" : "SODIO",
+        "dataTypeName" : "text",
+        "description" : "",
+        "fieldName" : "sodio",
+        "position" : 16,
+        "renderTypeName" : "text",
+        "tableColumnId" : 94027152,
+        "cachedContents" : {
+          "non_null" : "9",
+          "largest" : "0.00",
+          "null" : "249",
+          "top" : [ {
+            "item" : "0.00",
+            "count" : "6"
+          }, {
+            "item" : "***",
+            "count" : "3"
+          } ],
+          "smallest" : "***",
+          "count" : "258",
+          "cardinality" : "2"
+        },
+        "format" : { }
+      }, {
+        "id" : 557773017,
+        "name" : "CLORUROS",
+        "dataTypeName" : "number",
+        "description" : "",
+        "fieldName" : "cloruros",
+        "position" : 17,
+        "renderTypeName" : "number",
+        "tableColumnId" : 94027153,
+        "cachedContents" : {
+          "non_null" : "203",
+          "largest" : "11.6",
+          "null" : "55",
+          "top" : [ {
+            "item" : "0.9",
+            "count" : "11"
+          }, {
+            "item" : "1.1",
+            "count" : "10"
+          }, {
+            "item" : "2.0",
+            "count" : "10"
+          }, {
+            "item" : "0.8",
+            "count" : "8"
+          }, {
+            "item" : "1.5",
+            "count" : "8"
+          }, {
+            "item" : "1.0",
+            "count" : "7"
+          }, {
+            "item" : "1.8",
+            "count" : "7"
+          }, {
+            "item" : "1.9",
+            "count" : "6"
+          }, {
+            "item" : "4.9",
+            "count" : "6"
+          }, {
+            "item" : "1.2",
+            "count" : "5"
+          }, {
+            "item" : "5.800",
+            "count" : "5"
+          }, {
+            "item" : "5.0",
+            "count" : "5"
+          }, {
+            "item" : "2.8",
+            "count" : "5"
+          }, {
+            "item" : "0.7",
+            "count" : "5"
+          }, {
+            "item" : "3.4",
+            "count" : "5"
+          }, {
+            "item" : "1.4",
+            "count" : "4"
+          }, {
+            "item" : "1.7",
+            "count" : "4"
+          }, {
+            "item" : "2.2",
+            "count" : "4"
+          }, {
+            "item" : "3.0",
+            "count" : "4"
+          }, {
+            "item" : "5.7",
+            "count" : "4"
+          } ],
+          "smallest" : "0.000",
+          "count" : "258",
+          "cardinality" : "71"
+        },
+        "format" : { }
+      }, {
+        "id" : 557773018,
+        "name" : "FLUORUROS",
+        "dataTypeName" : "text",
+        "description" : "",
+        "fieldName" : "fluoruros",
+        "position" : 18,
+        "renderTypeName" : "text",
+        "tableColumnId" : 94027154,
+        "cachedContents" : {
+          "non_null" : "79",
+          "largest" : "0.920",
+          "null" : "179",
+          "top" : [ {
+            "item" : "0.300",
+            "count" : "3"
+          }, {
+            "item" : "0.070",
+            "count" : "3"
+          }, {
+            "item" : "0.400",
+            "count" : "3"
+          }, {
+            "item" : "0.040",
+            "count" : "3"
+          }, {
+            "item" : "0.120",
+            "count" : "3"
+          }, {
+            "item" : "0.320",
+            "count" : "3"
+          }, {
+            "item" : "0.130",
+            "count" : "3"
+          }, {
+            "item" : "0.100",
+            "count" : "3"
+          }, {
+            "item" : "0.160",
+            "count" : "3"
+          }, {
+            "item" : "***",
+            "count" : "3"
+          }, {
+            "item" : "0.440",
+            "count" : "2"
+          }, {
+            "item" : "0.200",
+            "count" : "2"
+          }, {
+            "item" : "0.080",
+            "count" : "2"
+          }, {
+            "item" : "0.350",
+            "count" : "2"
+          }, {
+            "item" : "0.090",
+            "count" : "2"
+          }, {
+            "item" : "0.03",
+            "count" : "2"
+          }, {
+            "item" : "0.540",
+            "count" : "2"
+          }, {
+            "item" : "0.550",
+            "count" : "2"
+          }, {
+            "item" : "0.240",
+            "count" : "2"
+          }, {
+            "item" : "0.050",
+            "count" : "2"
+          } ],
+          "smallest" : "***",
+          "count" : "258",
+          "cardinality" : "49"
+        },
+        "format" : { }
+      }, {
+        "id" : 557773019,
+        "name" : "HIERRO",
+        "dataTypeName" : "number",
+        "description" : "",
+        "fieldName" : "hierro",
+        "position" : 19,
+        "renderTypeName" : "number",
+        "tableColumnId" : 94027155,
+        "cachedContents" : {
+          "non_null" : "240",
+          "largest" : "1.69",
+          "null" : "18",
+          "top" : [ {
+            "item" : "0.15",
+            "count" : "12"
+          }, {
+            "item" : "0.14",
+            "count" : "11"
+          }, {
+            "item" : "0.13",
+            "count" : "10"
+          }, {
+            "item" : "0.29",
+            "count" : "9"
+          }, {
+            "item" : "0.11",
+            "count" : "9"
+          }, {
+            "item" : "0.36",
+            "count" : "8"
+          }, {
+            "item" : "0.33",
+            "count" : "8"
+          }, {
+            "item" : "0.20",
+            "count" : "8"
+          }, {
+            "item" : "0.16",
+            "count" : "8"
+          }, {
+            "item" : "0.12",
+            "count" : "7"
+          }, {
+            "item" : "0.06",
+            "count" : "6"
+          }, {
+            "item" : "0.18",
+            "count" : "6"
+          }, {
+            "item" : "0.19",
+            "count" : "6"
+          }, {
+            "item" : "0.27",
+            "count" : "6"
+          }, {
+            "item" : "0.09",
+            "count" : "6"
+          }, {
+            "item" : "0.08",
+            "count" : "6"
+          }, {
+            "item" : "0.10",
+            "count" : "5"
+          }, {
+            "item" : "0.32",
+            "count" : "5"
+          }, {
+            "item" : "0.23",
+            "count" : "5"
+          }, {
+            "item" : "0.26",
+            "count" : "4"
+          } ],
+          "smallest" : "0.030",
+          "count" : "258",
+          "cardinality" : "70"
+        },
+        "format" : { }
+      }, {
+        "id" : 557773037,
+        "name" : "MANGANESO",
+        "dataTypeName" : "text",
+        "description" : "",
+        "fieldName" : "manganeso",
+        "position" : 20,
+        "renderTypeName" : "text",
+        "tableColumnId" : 141483012,
+        "cachedContents" : {
+          "non_null" : "222",
+          "largest" : "7.000",
+          "null" : "36",
+          "top" : [ {
+            "item" : "0.30",
+            "count" : "17"
+          }, {
+            "item" : "0.500",
+            "count" : "14"
+          }, {
+            "item" : "0.40",
+            "count" : "13"
+          }, {
+            "item" : "0.3",
+            "count" : "10"
+          }, {
+            "item" : "0.6",
+            "count" : "10"
+          }, {
+            "item" : "0.20",
+            "count" : "9"
+          }, {
+            "item" : "0.400",
+            "count" : "9"
+          }, {
+            "item" : "0.50",
+            "count" : "8"
+          }, {
+            "item" : "0.8",
+            "count" : "7"
+          }, {
+            "item" : "0.300",
+            "count" : "7"
+          }, {
+            "item" : "0.60",
+            "count" : "6"
+          }, {
+            "item" : "0.4",
+            "count" : "5"
+          }, {
+            "item" : "0.2",
+            "count" : "5"
+          }, {
+            "item" : "0.100",
+            "count" : "5"
+          }, {
+            "item" : "0.200",
+            "count" : "5"
+          }, {
+            "item" : "0.5",
+            "count" : "5"
+          }, {
+            "item" : "0.900",
+            "count" : "4"
+          }, {
+            "item" : "1.4",
+            "count" : "3"
+          }, {
+            "item" : "0.10",
+            "count" : "3"
+          }, {
+            "item" : "1.600",
+            "count" : "3"
+          } ],
+          "smallest" : "***",
+          "count" : "258",
+          "cardinality" : "81"
+        },
+        "format" : { }
+      }, {
+        "id" : 557773021,
+        "name" : "FENOLES",
+        "dataTypeName" : "text",
+        "description" : "",
+        "fieldName" : "fenoles",
+        "position" : 21,
+        "renderTypeName" : "text",
+        "tableColumnId" : 94027157,
+        "cachedContents" : {
+          "non_null" : "9",
+          "largest" : "0.00",
+          "null" : "249",
+          "top" : [ {
+            "item" : "0.00",
+            "count" : "6"
+          }, {
+            "item" : "***",
+            "count" : "3"
+          } ],
+          "smallest" : "***",
+          "count" : "258",
+          "cardinality" : "2"
+        },
+        "format" : { }
+      }, {
+        "id" : 557773022,
+        "name" : "AMONIACO",
+        "dataTypeName" : "number",
+        "description" : "",
+        "fieldName" : "amoniaco",
+        "position" : 22,
+        "renderTypeName" : "number",
+        "tableColumnId" : 94027158,
+        "cachedContents" : {
+          "non_null" : "222",
+          "largest" : "3.78",
+          "null" : "36",
+          "top" : [ {
+            "item" : "0.01",
+            "count" : "21"
+          }, {
+            "item" : "0.07",
+            "count" : "19"
+          }, {
+            "item" : "0.02",
+            "count" : "16"
+          }, {
+            "item" : "0.06",
+            "count" : "15"
+          }, {
+            "item" : "0.03",
+            "count" : "13"
+          }, {
+            "item" : "0.05",
+            "count" : "13"
+          }, {
+            "item" : "0.10",
+            "count" : "13"
+          }, {
+            "item" : "0.04",
+            "count" : "12"
+          }, {
+            "item" : "0.0",
+            "count" : "11"
+          }, {
+            "item" : "0.08",
+            "count" : "9"
+          }, {
+            "item" : "0.09",
+            "count" : "9"
+          }, {
+            "item" : "0.16",
+            "count" : "6"
+          }, {
+            "item" : "0.11",
+            "count" : "6"
+          }, {
+            "item" : "0.14",
+            "count" : "5"
+          }, {
+            "item" : "0.12",
+            "count" : "5"
+          }, {
+            "item" : "0.130",
+            "count" : "4"
+          }, {
+            "item" : "0.23",
+            "count" : "4"
+          }, {
+            "item" : "0.19",
+            "count" : "2"
+          }, {
+            "item" : "0.15",
+            "count" : "2"
+          }, {
+            "item" : "0.40",
+            "count" : "2"
+          } ],
+          "smallest" : "0.0",
+          "count" : "258",
+          "cardinality" : "53"
+        },
+        "format" : { }
+      }, {
+        "id" : 557773032,
+        "name" : "NITRITOS",
+        "dataTypeName" : "text",
+        "description" : "",
+        "fieldName" : "nitritos",
+        "position" : 23,
+        "renderTypeName" : "text",
+        "tableColumnId" : 141483007,
+        "cachedContents" : {
+          "non_null" : "240",
+          "largest" : "0.022",
+          "null" : "18",
+          "top" : [ {
+            "item" : "0.006",
+            "count" : "28"
+          }, {
+            "item" : "0.008",
+            "count" : "26"
+          }, {
+            "item" : "0.005",
+            "count" : "25"
+          }, {
+            "item" : "0.007",
+            "count" : "23"
+          }, {
+            "item" : "0.009",
+            "count" : "22"
+          }, {
+            "item" : "***",
+            "count" : "21"
+          }, {
+            "item" : "0.004",
+            "count" : "19"
+          }, {
+            "item" : "0.003",
+            "count" : "16"
+          }, {
+            "item" : "0.011",
+            "count" : "10"
+          }, {
+            "item" : "0.010",
+            "count" : "9"
+          }, {
+            "item" : "0.012",
+            "count" : "8"
+          }, {
+            "item" : "0.016",
+            "count" : "7"
+          }, {
+            "item" : "0.013",
+            "count" : "6"
+          }, {
+            "item" : "0.017",
+            "count" : "3"
+          }, {
+            "item" : "0.002",
+            "count" : "3"
+          }, {
+            "item" : "0.014",
+            "count" : "3"
+          }, {
+            "item" : "0.019",
+            "count" : "3"
+          }, {
+            "item" : "0.001",
+            "count" : "2"
+          }, {
+            "item" : "0.018",
+            "count" : "2"
+          }, {
+            "item" : "0.015",
+            "count" : "2"
+          } ],
+          "smallest" : "***",
+          "count" : "258",
+          "cardinality" : "22"
+        },
+        "format" : { }
+      }, {
+        "id" : 557773024,
+        "name" : "NITRATOS",
+        "dataTypeName" : "number",
+        "description" : "",
+        "fieldName" : "nitratos",
+        "position" : 24,
+        "renderTypeName" : "number",
+        "tableColumnId" : 94027132,
+        "cachedContents" : {
+          "non_null" : "249",
+          "largest" : "10.7",
+          "null" : "9",
+          "top" : [ {
+            "item" : "1.0",
+            "count" : "23"
+          }, {
+            "item" : "1.2",
+            "count" : "21"
+          }, {
+            "item" : "0.8",
+            "count" : "19"
+          }, {
+            "item" : "0.9",
+            "count" : "18"
+          }, {
+            "item" : "1.3",
+            "count" : "16"
+          }, {
+            "item" : "1.5",
+            "count" : "15"
+          }, {
+            "item" : "0.7",
+            "count" : "14"
+          }, {
+            "item" : "1.1",
+            "count" : "14"
+          }, {
+            "item" : "1.6",
+            "count" : "11"
+          }, {
+            "item" : "0.5",
+            "count" : "10"
+          }, {
+            "item" : "2.8",
+            "count" : "8"
+          }, {
+            "item" : "0.6",
+            "count" : "8"
+          }, {
+            "item" : "2.0",
+            "count" : "8"
+          }, {
+            "item" : "1.7",
+            "count" : "7"
+          }, {
+            "item" : "1.9",
+            "count" : "6"
+          }, {
+            "item" : "1.4",
+            "count" : "5"
+          }, {
+            "item" : "2.1",
+            "count" : "5"
+          }, {
+            "item" : "2.9",
+            "count" : "4"
+          }, {
+            "item" : "2.6",
+            "count" : "4"
+          }, {
+            "item" : "2.3",
+            "count" : "4"
+          } ],
+          "smallest" : "0.050",
+          "count" : "258",
+          "cardinality" : "38"
+        },
+        "format" : { }
+      }, {
+        "id" : 557773035,
+        "name" : "DUREZA",
+        "dataTypeName" : "text",
+        "description" : "",
+        "fieldName" : "dureza",
+        "position" : 25,
+        "renderTypeName" : "text",
+        "tableColumnId" : 141483010,
+        "cachedContents" : {
+          "non_null" : "232",
+          "largest" : "98.000",
+          "null" : "26",
+          "top" : [ {
+            "item" : "***",
+            "count" : "30"
+          }, {
+            "item" : "30",
+            "count" : "5"
+          }, {
+            "item" : "28.000",
+            "count" : "4"
+          }, {
+            "item" : "65",
+            "count" : "4"
+          }, {
+            "item" : "43",
+            "count" : "3"
+          }, {
+            "item" : "32.000",
+            "count" : "3"
+          }, {
+            "item" : "85",
+            "count" : "3"
+          }, {
+            "item" : "55",
+            "count" : "3"
+          }, {
+            "item" : "104",
+            "count" : "3"
+          }, {
+            "item" : "120",
+            "count" : "3"
+          }, {
+            "item" : "66.000",
+            "count" : "3"
+          }, {
+            "item" : "107",
+            "count" : "3"
+          }, {
+            "item" : "29",
+            "count" : "3"
+          }, {
+            "item" : "128",
+            "count" : "3"
+          }, {
+            "item" : "52",
+            "count" : "3"
+          }, {
+            "item" : "26.000",
+            "count" : "3"
+          }, {
+            "item" : "35",
+            "count" : "3"
+          }, {
+            "item" : "130.000",
+            "count" : "3"
+          }, {
+            "item" : "26",
+            "count" : "3"
+          }, {
+            "item" : "110",
+            "count" : "3"
+          } ],
+          "smallest" : "***",
+          "count" : "258",
+          "cardinality" : "130"
+        },
+        "format" : { }
+      }, {
+        "id" : 557773026,
+        "name" : "CIANUROS",
+        "dataTypeName" : "text",
+        "description" : "",
+        "fieldName" : "cianuros",
+        "position" : 26,
+        "renderTypeName" : "text",
+        "tableColumnId" : 94027134,
+        "cachedContents" : {
+          "non_null" : "21",
+          "largest" : "0",
+          "null" : "237",
+          "top" : [ {
+            "item" : "***",
+            "count" : "15"
+          }, {
+            "item" : "0",
+            "count" : "6"
+          } ],
+          "smallest" : "***",
+          "count" : "258",
+          "cardinality" : "2"
+        },
+        "format" : { }
+      }, {
+        "id" : 557773029,
+        "name" : "SULFATOS",
+        "dataTypeName" : "text",
+        "description" : "",
+        "fieldName" : "sulfatos",
+        "position" : 27,
+        "renderTypeName" : "text",
+        "tableColumnId" : 141483004,
+        "cachedContents" : {
+          "non_null" : "246",
+          "largest" : "96",
+          "null" : "12",
+          "top" : [ {
+            "item" : "0",
+            "count" : "49"
+          }, {
+            "item" : "***",
+            "count" : "21"
+          }, {
+            "item" : "0.000",
+            "count" : "20"
+          }, {
+            "item" : "11",
+            "count" : "8"
+          }, {
+            "item" : "6",
+            "count" : "8"
+          }, {
+            "item" : "9",
+            "count" : "7"
+          }, {
+            "item" : "4",
+            "count" : "5"
+          }, {
+            "item" : "50",
+            "count" : "5"
+          }, {
+            "item" : "10",
+            "count" : "5"
+          }, {
+            "item" : "6.000",
+            "count" : "4"
+          }, {
+            "item" : "7",
+            "count" : "4"
+          }, {
+            "item" : "56",
+            "count" : "4"
+          }, {
+            "item" : "8",
+            "count" : "4"
+          }, {
+            "item" : "54",
+            "count" : "3"
+          }, {
+            "item" : "7.000",
+            "count" : "3"
+          }, {
+            "item" : "62",
+            "count" : "3"
+          }, {
+            "item" : "57",
+            "count" : "3"
+          }, {
+            "item" : "62.000",
+            "count" : "3"
+          }, {
+            "item" : "13",
+            "count" : "3"
+          }, {
+            "item" : "2.000",
+            "count" : "3"
+          } ],
+          "smallest" : "***",
+          "count" : "258",
+          "cardinality" : "76"
+        },
+        "format" : { }
+      }, {
+        "id" : 557773033,
+        "name" : "FOSFORO SOLUBLE",
+        "dataTypeName" : "text",
+        "description" : "",
+        "fieldName" : "fosforo_soluble",
+        "position" : 28,
+        "renderTypeName" : "text",
+        "tableColumnId" : 141483008,
+        "cachedContents" : {
+          "non_null" : "115",
+          "largest" : "2.80",
+          "null" : "143",
+          "top" : [ {
+            "item" : "0.380",
+            "count" : "6"
+          }, {
+            "item" : "0.370",
+            "count" : "6"
+          }, {
+            "item" : "0.270",
+            "count" : "5"
+          }, {
+            "item" : "0.200",
+            "count" : "4"
+          }, {
+            "item" : "0.210",
+            "count" : "4"
+          }, {
+            "item" : "0.25",
+            "count" : "4"
+          }, {
+            "item" : "0.180",
+            "count" : "4"
+          }, {
+            "item" : "0.300",
+            "count" : "3"
+          }, {
+            "item" : "0.320",
+            "count" : "3"
+          }, {
+            "item" : "0.230",
+            "count" : "3"
+          }, {
+            "item" : "***",
+            "count" : "3"
+          }, {
+            "item" : "0.20",
+            "count" : "2"
+          }, {
+            "item" : "0.190",
+            "count" : "2"
+          }, {
+            "item" : "0.28",
+            "count" : "2"
+          }, {
+            "item" : "0.140",
+            "count" : "2"
+          }, {
+            "item" : "0.220",
+            "count" : "2"
+          }, {
+            "item" : "0.29",
+            "count" : "2"
+          }, {
+            "item" : "0.260",
+            "count" : "2"
+          }, {
+            "item" : "0.450",
+            "count" : "2"
+          }, {
+            "item" : "0.420",
+            "count" : "2"
+          } ],
+          "smallest" : "***",
+          "count" : "258",
+          "cardinality" : "63"
+        },
+        "format" : { }
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "custom_fields" : {
+          "Información de la Entidad" : {
+            "Municipio" : "Ibagué",
+            "Nombre de la Entidad" : "E.S.P. Empresa Ibaguéreña de Acueducto y Alcantarillado S.A.",
+            "Orden" : "Territorial",
+            "Sector" : "Vivienda Ciudad y Territorio",
+            "Área o dependencia" : "GRUPO CALIDAD DE AGUA",
+            "Departamento" : "Tolima"
+          },
+          "Información de Datos" : {
+            "Cobertura Geográfica" : "Municipal",
+            "Idioma" : "Español",
+            "Frecuencia de Actualización" : "Mensual",
+            "Fecha Emisión (aaaa-mm-dd)" : "2019-10-30"
+          }
+        },
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ]
+      },
+      "owner" : {
+        "id" : "htyq-8hxr",
+        "displayName" : "EMPRESA IBAGUEREÑA DE ACUEDUCTO Y ALCANTARILLADO IBAL SA ESP OFICIAL",
+        "profileImageUrlLarge" : "/api/users/htyq-8hxr/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/htyq-8hxr/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/htyq-8hxr/profile_images/TINY",
+        "screenName" : "EMPRESA IBAGUEREÑA DE ACUEDUCTO Y ALCANTARILLADO IBAL SA ESP OFICIAL",
+        "type" : "interactive",
+        "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+      },
+      "query" : { },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "htyq-8hxr",
+        "displayName" : "EMPRESA IBAGUEREÑA DE ACUEDUCTO Y ALCANTARILLADO IBAL SA ESP OFICIAL",
+        "profileImageUrlLarge" : "/api/users/htyq-8hxr/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/htyq-8hxr/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/htyq-8hxr/profile_images/TINY",
+        "screenName" : "EMPRESA IBAGUEREÑA DE ACUEDUCTO Y ALCANTARILLADO IBAL SA ESP OFICIAL",
+        "type" : "interactive",
+        "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+      },
+      "flags" : [ "default", "ownerMayBeContacted", "restorable", "restorePossibleForType" ]
+    }
+  },
+  "data" : [ [ "row-urwf~6rkt.4mbt", "00000000-0000-0000-57B6-48920A23EAB4", 0, 1660681497, null, 1660681497, null, "{ }", "1122", "2015-01-14T00:00:00.000", "IBAL", "1", "8.52", "17.8", "165", "361", "5.00", "25", "92080", "7,890", "1", "3", "7.98", null, "4.4", null, "0.29", null, null, null, "0.011", "1.0", "116", null, "71", null ]
+, [ "row-nypd-szur~8ktx", "00000000-0000-0000-86C4-5F2E9179F0C6", 0, 1660681497, null, 1660681497, null, "{ }", "1123", "2015-01-14T00:00:00.000", "IBAL", "1", "8.26", "18.7", "71.0", "152", "7.30", "37", "18500", "3,990", "1", "2", "7.70", null, "0.9", null, "0.15", null, null, null, "0.013", "2.1", "53", null, "11", null ]
+, [ "row-f3vf.r9iu_d76u", "00000000-0000-0000-6711-F3E3AF129D82", 0, 1660681497, null, 1660681497, null, "{ }", "1124", "2015-01-14T00:00:00.000", "IBAL", "1", "7.96", "20.4", "42.0", "89", "4.29", "18", "9590", "310", "1", "1", "8.41", null, "1.6", null, "0.08", null, null, null, "0.006", "2.0", "62", null, "0", null ]
+, [ "row-fm5u-twyt-ejw4", "00000000-0000-0000-59A3-B37367A75E0D", 0, 1660681497, null, 1660681497, null, "{ }", "1122", "2015-02-18T00:00:00.000", "IBAL", "1", "8.28", "17.5", "165", "367", "12.0", "25", "32550", "8,550", "1", "1.6", "7.07", null, "4.9", null, "0.32", null, null, null, "0.009", "1.9", "140", null, "69", null ]
+, [ "row-bpz9~b3w2-vsg5", "00000000-0000-0000-E165-9D1EA0B41372", 0, 1660681497, null, 1660681497, null, "{ }", "1123", "2015-02-18T00:00:00.000", "IBAL", "1", "8.10", "17.7", "73.0", "157", "6.0", "37", "34480", "6,130", "1", "0.4", "6.62", null, "0.8", null, "0.11", null, null, null, "0.004", "0.9", "70", null, "10", null ]
+, [ "row-gre9-byv9~2znk", "00000000-0000-0000-1FFB-5CD73BFD1179", 0, 1660681497, null, 1660681497, null, "{ }", "1124", "2015-02-18T00:00:00.000", "IBAL", "1", "8.20", "17.0", "42.0", "87", "7.60", "18", "36540", "520", "1", "32", "7.57", null, "1.0", null, "0.08", null, null, null, "0.009", "1.3", "35", null, "0", null ]
+, [ "row-ynn2-mekv_uyif", "00000000-0000-0000-B8BE-B1E33A708F6D", 0, 1660681497, null, 1660681497, null, "{ }", "1122", "2015-03-11T00:00:00.000", "IBAL", "1", "8.34", "18.8", "165", "383", "16", "55", "13330", "7,060", "1", "3", "7.93", null, "6", null, "0.29", null, null, null, "0.017", "1.2", "138", null, "56", null ]
+, [ "row-maf5.3nkk_qa67", "00000000-0000-0000-64CC-E4A6F1BA270B", 0, 1660681497, null, 1660681497, null, "{ }", "1123", "2015-03-11T00:00:00.000", "IBAL", "1", "8.22", "19.1", "72", "159", "4.8", "18", "32550", "8,840", "1", "3", "8.08", null, "1.8", null, "0.09", null, null, null, "0.010", "0.7", "80", null, "6", null ]
+, [ "row-8eyy.dwmv~yyjw", "00000000-0000-0000-8383-EEEEF67CA445", 0, 1660681497, null, 1660681497, null, "{ }", "1124", "2015-03-11T00:00:00.000", "IBAL", "1", "8.00", "19.2", "39", "86", "4.75", "16.00", "16640", "100", "1", "2", "8.38", null, "1.5", null, "0.12", null, null, null, "0.009", "1.6", "71", null, "0", null ]
+, [ "row-petv.8nv3_nmas", "00000000-0000-0000-697C-79B8C051F6A2", 0, 1660681497, null, 1660681497, null, "{ }", "1122", "2015-04-15T00:00:00.000", "IBAL", "1", "8.21", "19.1", "1", "292", "45.7", "207", "34480", "7,890", "2", "5", "6.55", null, "3.8", null, "0.39", null, null, null, "0.013", "1.1", "80", null, "10", null ]
+, [ "row-39ma-whag.v3tb", "00000000-0000-0000-13CE-F7D4F0761B95", 0, 1660681497, null, 1660681497, null, "{ }", "1123", "2015-04-15T00:00:00.000", "IBAL", "1", "8.18", "19.3", "68", "140", "44.3", "217", "81640", "13,340", "2", "5", "6.11", null, "2.0", null, "0.38", null, null, null, "0.006", "1.8", "46", null, "9", null ]
+, [ "row-f22u_2f3f.2rc5", "00000000-0000-0000-1671-EF5F93AF9336", 0, 1660681497, null, 1660681497, null, "{ }", "1124", "2015-04-15T00:00:00.000", "IBAL", "1", "7.95", "19.1", "60", "80", "4.05", "25", "46110", "310", "1", "2", "5.67", null, "0.7", null, "0.10", null, null, null, "0.004", "1.3", "30", null, "0", null ]
+, [ "row-tj4x_bgxn~gzzp", "00000000-0000-0000-4E08-E065AA370DE1", 0, 1660681497, null, 1660681497, null, "{ }", "1122", "2015-05-13T00:00:00.000", "IBAL", "1", "8.21", "17.8", "63", "354", "6.70", "22", "36540", "7,710", "1", "2", "6.41", null, "4.9", null, "0.25", null, null, null, "0.007", "0.9", "110", null, "66", null ]
+, [ "row-cgpk-63xx-wwzd", "00000000-0000-0000-ABEF-2D1F378EE27A", 0, 1660681497, null, 1660681497, null, "{ }", "1123", "2015-05-13T00:00:00.000", "IBAL", "1", "8.08", "18.4", "153", "149", "4.00", "9", "48840", "7,120", "2", "7", "6.38", null, "1.8", null, "0.15", null, null, null, "0.011", "1.3", "69", null, "5", null ]
+, [ "row-3iy4~bafa_jtvj", "00000000-0000-0000-8313-66579163BECE", 0, 1660681497, null, 1660681497, null, "{ }", "1124", "2015-05-13T00:00:00.000", "IBAL", "1", "8.07", "18.6", "39", "85", "4.70", "13", "15650", "200", "0", "1", "5.83", null, "0.7", null, "0.15", null, null, null, "0.006", "0.7", "30", null, "0", null ]
+, [ "row-p2c2~9yeg~miju", "00000000-0000-0000-FA19-940AA52851B6", 0, 1660681497, null, 1660681497, null, "{ }", "1122", "2015-06-17T00:00:00.000", "IBAL", "1", "8.24", "17.6", "127", "289", "14.0", "66", "22820", "8,130", "1", "3", "6.91", null, "3.7", null, "0.27", null, null, null, "0.020", "1.7", "126", null, "54", null ]
+, [ "row-rjyw.vxt3~2fyf", "00000000-0000-0000-AA10-069AF29AB7D3", 0, 1660681497, null, 1660681497, null, "{ }", "1123", "2015-06-17T00:00:00.000", "IBAL", "1", "8.15", "18.2", "67", "148", "3.62", "29", "38730", "5,460", "1", "2", "6.25", null, "1.0", null, "0.16", null, null, null, "0.013", "1.0", "46", null, "8", null ]
+, [ "row-4kem-8d6t_w66g", "00000000-0000-0000-F3BC-1C235AB2BC43", 0, 1660681497, null, 1660681497, null, "{ }", "1124", "2015-06-17T00:00:00.000", "IBAL", "1", "8.07", "22.5", "40", "87.3", "3.27", "24", "34480", "200", "2", "3", "5.84", null, "0.7", null, "0.11", null, null, null, "0.015", "1.7", "22", null, "0", null ]
+, [ "row-5dzs-d3js_kxrh", "00000000-0000-0000-F994-41A5028C70D1", 0, 1660681497, null, 1660681497, null, "{ }", "1122", "2015-07-15T00:00:00.000", "IBAL", "1", "8.24", "17.6", "145", "339", "5.90", "16", "24810", "3,930", "3", "4", "5.99", null, "4.1", null, "0.36", null, null, null, "0.009", "0.9", "107", null, "57", null ]
+, [ "row-asfm~b8fb~2nsd", "00000000-0000-0000-8AB8-1037CB4624F3", 0, 1660681497, null, 1660681497, null, "{ }", "1123", "2015-07-15T00:00:00.000", "IBAL", "1", "8.15", "18.2", "67", "151", "2.27", "14", "34480", "12,960", "2", "3", "5.39", null, "1.5", null, "0.19", null, null, null, "0.008", "0.8", "74", null, "10", null ]
+, [ "row-u26r_xjbn~d9k4", "00000000-0000-0000-5B35-9018C981006C", 0, 1660681497, null, 1660681497, null, "{ }", "1124", "2015-07-15T00:00:00.000", "IBAL", "1", "8.07", "22.5", "39", "89.7", "26.1", "82", "14140", "200", "1", "2", "4.82", null, "1.4", null, "0.13", null, null, null, "0.009", "1.5", "30", null, "0", null ]
+, [ "row-xbpg.arua.26cb", "00000000-0000-0000-0443-0C48C1E5FBAC", 0, 1660681497, null, 1660681497, null, "{ }", "1122", "2015-08-12T00:00:00.000", "IBAL", "1", "8.24", "17.9", "136", "355", "5.15", "14", "21430", "8,050", "1", "2", "5.59", null, "5.6", null, "0.24", null, null, null, "0.009", "1.7", "129", null, "64", null ]
+, [ "row-u2rp-xyxj-73a5", "00000000-0000-0000-8B74-7FE5C9BBE3AD", 0, 1660681497, null, 1660681497, null, "{ }", "1123", "2015-08-12T00:00:00.000", "IBAL", "1", "8.09", "18.6", "63", "153", "3.40", "2", "30760", "5,460", "1", "2", "5.44", null, "1.4", null, "0.14", null, null, null, "0.008", "0.9", "56", null, "11", null ]
+, [ "row-afd3~4v4i~qyt8", "00000000-0000-0000-6C6A-395B3747ED5D", 0, 1660681497, null, 1660681497, null, "{ }", "1124", "2015-08-12T00:00:00.000", "IBAL", "1", "7.95", "20.0", "37", "92", "2.21", "11", "26130", "410", "1", "2", "5.91", null, "0.8", null, "0.14", null, null, null, "0.011", "1.3", "28", null, "0", null ]
+, [ "row-yzwq_sj97_i68d", "00000000-0000-0000-D6CC-8C521857BB86", 0, 1660681497, null, 1660681497, null, "{ }", "1122", "2015-09-16T00:00:00.000", "IBAL", "1", "8.02", "18.1", "164", "355", "5.15", "34", "30760", "12,110", "1", "3", "6.98", null, "6.5", null, "0.26", null, null, null, "0.012", "1.8", "124", null, "96", null ]
+, [ "row-tvdw-2svz~4zvs", "00000000-0000-0000-DC6D-B6106ED893B1", 0, 1660681497, null, 1660681497, null, "{ }", "1123", "2015-09-16T00:00:00.000", "IBAL", "1", "8.14", "18.3", "69", "153", "3.40", "9", "46110", "13,960", "1", "1", "8.40", null, "0.9", null, "0.13", null, null, null, "0.006", "0.8", "79", null, "7", null ]
+, [ "row-rk5r-gadh.5a2t", "00000000-0000-0000-3EA1-86D8F55398E9", 0, 1660681497, null, 1660681497, null, "{ }", "1124", "2015-09-17T00:00:00.000", "IBAL", "1", "7.82", "18.2", "45", "92", "2.21", "5", "17200", "<100", "1", "3", "6.01", null, "0.8", null, "0.14", null, null, null, "0.007", "0.9", "26", null, "0", null ]
+, [ "row-fjdn.687x~8wy7", "00000000-0000-0000-CAE7-68D1BAF7E8CD", 0, 1660681497, null, 1660681497, null, "{ }", "1122", "2015-10-14T00:00:00.000", "IBAL", "1", "7.92", "18.4", "67", "220", "1100", "2300", "241960", "61,310", "16", "19", "5.93", null, "3.9", null, "0.33", null, null, null, "0.017", "3.2", "108", null, "39", null ]
+, [ "row-26g4-gfxu_k2qe", "00000000-0000-0000-390B-7EC3E176DC3D", 0, 1660681497, null, 1660681497, null, "{ }", "1123", "2015-10-14T00:00:00.000", "IBAL", "1", "8.01", "18.5", "79.5", "150", "22.8", "105", "141360", "17,260", "12", "18", "6.88", null, "1.3", null, "0.28", null, null, null, "0.016", "2.2", "59", null, "17", null ]
+, [ "row-a3w5~qkb9~zuw7", "00000000-0000-0000-67DB-9BBEAA336F91", 0, 1660681497, null, 1660681497, null, "{ }", "1124", "2015-10-14T00:00:00.000", "IBAL", "1", "8.01", "20.8", "38", "88.2", "31.0", "177", "104620", "2,230", "6", "14", "5.33", null, "1.1", null, "0.15", null, null, null, "0.010", "1.7", "26", null, "0", null ]
+, [ "row-htfb-xqjs~bnxs", "00000000-0000-0000-6C87-C309826C3E03", 0, 1660681497, null, 1660681497, null, "{ }", "1122", "2015-11-12T00:00:00.000", "IBAL", "1", "8.12", "17.2", "72", "314", "26.7", "161", "81640", "38.730", "6", "9", "5.50", null, "2.6", null, "0.13", null, null, null, "0.012", "1.3", "110", null, "54", null ]
+, [ "row-f5ax~j862-27fh", "00000000-0000-0000-4AD2-357AB4E2C41B", 0, 1660681497, null, 1660681497, null, "{ }", "1123", "2015-11-12T00:00:00.000", "IBAL", "1", "8.06", "18.6", "72.0", "156", "11.2", "77", "241960", "14.670", "2", "3", "4.63", null, "1.9", null, "0.14", null, null, null, "0.007", "0.6", "52", null, "6", null ]
+, [ "row-5z46.u52s.uthk", "00000000-0000-0000-F2F5-56B809BDB85C", 0, 1660681497, null, 1660681497, null, "{ }", "1124", "2015-11-12T00:00:00.000", "IBAL", "1", "7.93", "22.0", "45", "96", "3.7", "20", "30760", "0", "1", "2", "4.96", null, "1.9", null, "0.11", null, null, null, "0.006", "1.1", "43", null, "0", null ]
+, [ "row-vnpt~3ck5~ft8c", "00000000-0000-0000-C7C4-4CF26EE95B46", 0, 1660681497, null, 1660681497, null, "{ }", "1122", "2015-12-02T00:00:00.000", "IBAL", "1", "8.30", "19.2", "157", "347", "10.2", "46", "173290", "10,140", "3", "10", "8.98", null, "3.4", null, "0.36", null, null, null, "0.008", "2.8", "102", null, "59", null ]
+, [ "row-8c77~ergb.x5g8", "00000000-0000-0000-3351-1BA0FE16DF42", 0, 1660681497, null, 1660681497, null, "{ }", "1123", "2015-12-02T00:00:00.000", "IBAL", "1", "8.29", "19.3", "72.0", "165", "3.45", "18", "19890", "2,010", "2", "3", "8.36", null, "1.8", null, "0.17", null, null, null, "0.008", "1.5", "60", null, "9", null ]
+, [ "row-4mf8_dknf.i5bb", "00000000-0000-0000-429D-2A292EE8738C", 0, 1660681497, null, 1660681497, null, "{ }", "1124", "2015-12-02T00:00:00.000", "IBAL", "1", "7.73", "24.1", "42", "99", "4.41", "23", "57940", "200", "1", "2", "10.04", null, "1.5", null, "0.17", null, null, null, "0.011", "0.6", "89", null, "0", null ]
+, [ "row-eg3b.pbbb~jgc8", "00000000-0000-0000-E6ED-A744316ED890", 0, 1660681497, null, 1660681497, null, "{ }", "1122", "2016-01-20T00:00:00.000", "IBAL", "1", "8.25", "18.8", "188", "396", "6.68", "43", "21430", "5,480", "1", "3", "6.23", null, "4.9", null, "0.16", "0.3", null, "0.16", "0.007", "1.3", "135", null, "75", null ]
+, [ "row-4g6d_csqh~hert", "00000000-0000-0000-F1DF-09503181F20C", 0, 1660681497, null, 1660681497, null, "{ }", "1123", "2016-01-20T00:00:00.000", "IBAL", "1", "8.19", "19.5", "76.0", "164", "3.24", "7", "41060", "3,990", "1", "2", "6.05", null, "1.0", null, "0.08", "0.2", null, "0.01", "0.007", "1.5", "65", null, "8", null ]
+, [ "row-qd5y_nvvw_qrh3", "00000000-0000-0000-4ABD-351921B34677", 0, 1660681497, null, 1660681497, null, "{ }", "1124", "2016-01-20T00:00:00.000", "IBAL", "1", "8.11", "24.0", "47.0", "103", "3.55", "13", "36540", "520", "0", "1", "5.73", null, "0.9", null, "0.09", "0.2", null, "0.06", "0.003", "1.2", "25", null, "0", null ]
+, [ "row-btfx-shf7.cdua", "00000000-0000-0000-EF24-8096B0701678", 0, 1660681497, null, 1660681497, null, "{ }", "1122", "2016-02-17T00:00:00.000", "IBAL", "1", "8.27", "20.6", "197", "407", "8.12", "51", "38730", "8,360", "3", "7", "6.3", null, "3.0", null, "0.18", "0.8", null, "0.07", "0.008", "1.1", "***", null, "102", null ]
+, [ "row-sjf2.fxrs-xhs2", "00000000-0000-0000-B0FA-42821339EF8C", 0, 1660681497, null, 1660681497, null, "{ }", "1123", "2016-02-17T00:00:00.000", "IBAL", "1", "8.20", "21.4", "78", "163", "2.56", "12", "43520", "13,330", "0", "1", "6.49", null, "0.8", null, "0.07", "0.6", null, "0.02", "0.005", "0.5", "***", null, "9", null ]
+, [ "row-68v6_meex~tvt3", "00000000-0000-0000-40A5-11098192E7B3", 0, 1660681497, null, 1660681497, null, "{ }", "1124", "2016-02-17T00:00:00.000", "IBAL", "1", "8.32", "24.2", "58", "97.5", "1.76", "11", "29090", "100", "3", "7", "7.01", null, "0.9", null, "0.06", "0.3", null, "0.01", "0.006", "0.8", "***", null, "0", null ]
+, [ "row-y3it-hbyf~bifs", "00000000-0000-0000-E297-5A8F94518E4E", 0, 1660681497, null, 1660681497, null, "{ }", "1122", "2016-03-16T00:00:00.000", "IBAL", "1", "8.38", "19.8", "191", "413", "12.2", "87", "14390", "3,690", "1", "3", "6.46", null, "4.1", null, "0.38", "0.8", null, "0.14", "0.009", "1.9", "***", null, "70", null ]
+, [ "row-aqcn~zsn6~w7zv", "00000000-0000-0000-5033-77D4A9933CB3", 0, 1660681497, null, 1660681497, null, "{ }", "1123", "2016-03-16T00:00:00.000", "IBAL", "1", "8.25", "20.1", "76.0", "168", "3.51", "22", "27550", "2,820", "0", "1", "6.26", null, "0.7", null, "0.15", "0.5", null, "0.04", "0.003", "1.0", "***", null, "11", null ]
+, [ "row-6pmt~iqeq~t3iz", "00000000-0000-0000-6640-1B686EDEB3F7", 0, 1660681497, null, 1660681497, null, "{ }", "1124", "2016-03-16T00:00:00.000", "IBAL", "1", "8.54", "22.9", "44.0", "92", "3.13", "21", "57940", "100", "3", "9", "7.07", null, "0.9", null, "0.12", "0.4", null, "0.01", "0.004", "1.2", "***", null, "0", null ]
+, [ "row-jypu_7nnh.5i99", "00000000-0000-0000-0C79-2E441DAD635F", 0, 1660681497, null, 1660681497, null, "{ }", "1122", "2016-04-20T00:00:00.000", "IBAL", "1", "8.46", "19.6", "257", "367", "10.8", "50", "34480", "4140", "1", "3", "5.77", null, "5.0", null, "0.31", "0.50", null, "3.20", "0.010", "1.0", "***", null, "***", null ]
+, [ "row-243p~w58h_bix4", "00000000-0000-0000-6179-B5E730923B1E", 0, 1660681497, null, 1660681497, null, "{ }", "1123", "2016-04-20T00:00:00.000", "IBAL", "1", "8.60", "20.5", "75", "159", "4.1", "12", "29870", "4640", "2", "4", "4.90", null, "1.1", null, "0.18", "0.30", null, "0.10", "0.009", "0.8", "***", null, "***", null ]
+, [ "row-828t_d9m5~eq7k", "00000000-0000-0000-A3A9-5541E463A036", 0, 1660681497, null, 1660681497, null, "{ }", "1124", "2016-04-20T00:00:00.000", "IBAL", "1", "8.38", "21.5", "36", "80", "12.2", "49", "57940", "2010", "3", "8", "5.92", null, "1.3", null, "0.15", "0.70", null, "0.02", "0.007", "1.1", "***", null, "***", null ]
+, [ "row-bjdf~dpqv.v28x", "00000000-0000-0000-3847-CFBA6BCB48AA", 0, 1660681497, null, 1660681497, null, "{ }", "1122", "2016-05-18T00:00:00.000", "IBAL", "1", "8.21", "20.5", "160", "328", "10.50", "57", "38730", "6,830", "1", "3", "6.50", null, "3.9", null, "0.27", "0.30", null, "0.15", "0.008", "1.1", "***", null, "***", null ]
+, [ "row-2z49~iyw7.cvmc", "00000000-0000-0000-4AE8-F525C50C0E16", 0, 1660681497, null, 1660681497, null, "{ }", "1123", "2016-05-18T00:00:00.000", "IBAL", "1", "8.20", "20.7", "77", "157", "12.5", "59", "173290", "11,000", "2", "4", "5.81", null, "0.6", null, "0.20", "0.30", null, "0.10", "0.011", "2.4", "***", null, "***", null ]
+, [ "row-w8sy.8m6a.bttf", "00000000-0000-0000-AEA1-43C751BA57DF", 0, 1660681497, null, 1660681497, null, "{ }", "1124", "2016-05-18T00:00:00.000", "IBAL", "1", "8.51", "21.0", "41", "86", "2.78", "13", "24000", "0", "3", "8", "5.98", null, "1.1", null, "0.12", "0.10", null, "0.07", "0.004", "1.0", "***", null, "***", null ]
+, [ "row-f53p_4q47~gzmz", "00000000-0000-0000-BC9D-967BC7A41162", 0, 1660681497, null, 1660681497, null, "{ }", "1122", "2016-06-15T00:00:00.000", "IBAL", "1", "8.07", "18.4", "72", "153", "303", "1790", "41060", "4,950", "4", "g", "6.42", null, "3.1", null, "0.39", "1.60", null, "1.09", "0.013", "2.3", "***", null, "***", null ]
+, [ "row-q86i-jq4u~exca", "00000000-0000-0000-F556-ACC2C296E0AA", 0, 1660681497, null, 1660681497, null, "{ }", "1123", "2016-06-15T00:00:00.000", "IBAL", "1", "8.14", "19.0", "75", "158", "4.96", "22", "48840", "11,120", "2", "4", "4.97", null, "1.2", null, "0.27", "0.20", null, "0.09", "0.007", "1.6", "***", null, "***", null ]
+, [ "row-gj2u~v9vv_wwri", "00000000-0000-0000-125D-10F5E002613E", 0, 1660681497, null, 1660681497, null, "{ }", "1124", "2016-06-15T00:00:00.000", "IBAL", "1", "8.10", "22.4", "43", "91", "4.64", "31", "24890", "100", "1", "8", "5.47", null, "1.0", null, "0.12", "0.20", null, "0.01", "0.006", "0.7", "***", null, "***", null ]
+, [ "row-7gjn~4jdc~kmwx", "00000000-0000-0000-A8AF-CC74893B0D2B", 0, 1660681497, null, 1660681497, null, "{ }", "1122", "2016-07-21T00:00:00.000", "IBAL", "1", "8.13", "17.9", "126", "265", "20.5", "63", "19350", "5,460", "10", "14", "4.55", null, "1.5", null, "0.26", "0.40", null, "0.12", "0.008", "1.2", "***", null, "***", null ]
+, [ "row-ptvu~v5sv~faam", "00000000-0000-0000-D910-0AE7C2F7F518", 0, 1660681497, null, 1660681497, null, "{ }", "1123", "2016-07-21T00:00:00.000", "IBAL", "1", "8.19", "18.5", "74", "156", "4.55", "21", "32550", "18,500", "4", "7", "4.74", null, "0.9", null, "0.12", "0.30", null, "0.01", "0.007", "1.0", "***", null, "***", null ]
+, [ "row-riub~3hh6_6cva", "00000000-0000-0000-28E7-8E323633C3A6", 0, 1660681497, null, 1660681497, null, "{ }", "1124", "2016-07-21T00:00:00.000", "IBAL", "1", "8.16", "18.9", "44", "142", "46.1", "82", "7980", "100", "1", "2", "4.99", null, "0.8", null, "0.21", "0.50", null, "0.06", "0.003", "0.8", "***", null, "***", null ]
+, [ "row-ra7x~bydn_76yf", "00000000-0000-0000-5CB5-2CD09A431A5B", 0, 1660681497, null, 1660681497, null, "{ }", "1122", "2016-08-17T00:00:00.000", "IBAL", "1", "8.09", "15.4", "5", "305", "4.41", "23", "43520", "13,540", "1", "2", "5.96", null, "4.3", null, "0.20", "7.00", null, "0.04", "0.016", "0.9", "***", "***", "***", null ]
+, [ "row-ijut.yzxg~3ccs", "00000000-0000-0000-97FE-3B6F8F74DEFC", 0, 1660681497, null, 1660681497, null, "{ }", "1123", "2016-08-17T00:00:00.000", "IBAL", "1", "8.35", "13.0", "4", "154", "2.41", "16", "26030", "5,040", "0", "1", "6.17", null, "1.3", null, "0.19", "0.40", null, "0.08", "0.006", "1.1", "***", "***", "***", null ]
+, [ "row-4acu_uyk9-848e", "00000000-0000-0000-6DB3-C42E492754C5", 0, 1660681497, null, 1660681497, null, "{ }", "1124", "2016-08-17T00:00:00.000", "IBAL", "1", "8.00", "15.6", "1", "93", "2.12", "14", "15970", "100", "1", "2", "6.22", null, "1.5", null, "0.13", "0.30", null, "0.07", "0.006", "1.4", "***", "***", "***", null ]
+, [ "row-vrvy.ymp6~82um", "00000000-0000-0000-490C-048E122527DF", 0, 1660681497, null, 1660681497, null, "{ }", "1122", "2016-09-28T00:00:00.000", "IBAL", "1", "8.37", "22.1", "146", "302", "23.7", "103", "22470", "10,190", "1", "2", "7.51", null, "3.4", null, "0.31", "0.50", null, "0.12", "0.012", "1.7", "***", "***", "***", null ]
+, [ "row-mvpp-86ku.an79", "00000000-0000-0000-981A-74A5AAEDEB40", 0, 1660681497, null, 1660681497, null, "{ }", "1123", "2016-09-28T00:00:00.000", "IBAL", "1", "8.36", "22.1", "76", "157", "3.75", "14", "36540", "6,240", "0", "1", "6.58", null, "2.0", null, "0.18", "0.30", null, "0.03", "0.004", "1.3", "***", "***", "***", null ]
+, [ "row-iccp_d4dc-kvqg", "00000000-0000-0000-360D-2868604760E0", 0, 1660681497, null, 1660681497, null, "{ }", "1124", "2016-09-28T00:00:00.000", "IBAL", "1", "7.98", "21.1", "44", "92.1", "3.62", "28", "20460", "200", "0", "1", "6.49", null, "1.0", null, "0.12", "0.30", null, "0.01", "0.005", "0.8", "***", "***", "***", null ]
+, [ "row-y655_sjc2-5k6x", "00000000-0000-0000-0A35-3837D675E9C4", 0, 1660681497, null, 1660681497, null, "{ }", "1122", "2016-10-19T00:00:00.000", "IBAL", "1", "8.24", "18.4", "143", "327", "13.3", "50", "43520", "10,540", "0", "0.6", "5.58", null, "3.0", null, "0.23", "0.40", null, "0.08", "0.019", "1.6", "***", "***", "***", null ]
+, [ "row-5z5i~9nfi~9n2d", "00000000-0000-0000-A347-C1562B994003", 0, 1660681497, null, 1660681497, null, "{ }", "1123", "2016-10-19T00:00:00.000", "IBAL", "1", "8.23", "18.8", "73", "165", "5.11", "22", "8820", "2,560", "0", "0.1", "5.65", null, "1.9", null, "0.11", "0.20", null, "0.05", "0.014", "0.7", "***", "***", "***", null ]
+, [ "row-xz87~q8g8-j6hs", "00000000-0000-0000-84F3-5112EAE51B6A", 0, 1660681497, null, 1660681497, null, "{ }", "1124", "2016-10-19T00:00:00.000", "IBAL", "1", "8.08", "18.0", "43", "97", "3.6", "21", "1950", "520", "0", "0.9", "5.04", null, "0.5", null, "0.08", "0.20", null, "0.02", "0.007", "0.6", "***", "***", "***", null ]
+, [ "row-8aqm.whxt~s4vv", "00000000-0000-0000-0EFF-88F26DCCB85B", 0, 1660681497, null, 1660681497, null, "{ }", "1122", "2016-11-26T00:00:00.000", "IBAL", "1", "8.21", "15.1", "151", "298", "6.65", "30", "43520", "22,470", "1", "2.0", "4.97", null, "4.7", null, "0.19", "0.20", null, "0.06", "0.006", "0.8", "78", "***", "59", null ]
+, [ "row-24ks.h8r6~nnza", "00000000-0000-0000-D0A4-50F16F32609B", 0, 1660681497, null, 1660681497, null, "{ }", "1123", "2016-11-26T00:00:00.000", "IBAL", "1", "8.17", "14.5", "73", "157.3", "5.92", "29", "86640", "2,620", "0", "1.0", "4.84", null, "1.0", null, "0.14", "0.30", null, "0.02", "0.005", "0.9", "67", "***", "10", null ]
+, [ "row-ihw8.2m3j~d92v", "00000000-0000-0000-33CA-D495120CD60C", 0, 1660681497, null, 1660681497, null, "{ }", "1124", "2016-11-26T00:00:00.000", "IBAL", "1", "8.03", "14.6", "42", "97", "29.5", "24", "30780", "630", "0", "1.0", "5.95", null, "0.9", null, "0.13", "0.20", null, "0.01", "0.007", "1.0", "14", "***", "0", null ]
+, [ "row-s7c5_r8ai.2yit", "00000000-0000-0000-680E-A2697C3128E7", 0, 1660681497, null, 1660681497, null, "{ }", "1122", "2016-12-14T00:00:00.000", "IBAL", "1", "8.41", "20.9", "156", "336", "60.1", "126", "51720", "10,170", "2", "1.0", "5.00", null, "5.0", null, "0.33", "0.70", null, "0.16", "0.011", "2.8", "104", "***", "65", null ]
+, [ "row-z38r-ivss-hfzd", "00000000-0000-0000-6BC2-89ECB0792BC2", 0, 1660681497, null, 1660681497, null, "{ }", "1123", "2016-12-14T00:00:00.000", "IBAL", "1", "8.30", "21.2", "74", "173", "8.83", "25", "61310", "8,160", "1", "0.0", "4.02", null, "2.0", null, "0.18", "0.20", null, "0.01", "0.010", "1.3", "64", "***", "11", null ]
+, [ "row-y9cu-ge98-kgrw", "00000000-0000-0000-73B5-7E20EEF73FCF", 0, 1660681497, null, 1660681497, null, "{ }", "1124", "2016-12-14T00:00:00.000", "IBAL", "1", "8.01", "20.0", "41", "106", "3.36", "28", "38730", "100", "10", "4.0", "4.06", null, "1.9", null, "0.09", "0.30", null, "0.02", "0.006", "0.9", "55", "***", "0", null ]
+, [ "row-gver.y9js-pev3", "00000000-0000-0000-52D0-B0F27270C035", 0, 1660681497, null, 1660681497, null, "{ }", "1122", "2017-01-25T00:00:00.000", "IBAL", "1", "8.23", "20.0", "99", "256", "10.1", "60", "24194", "14,136", "2", "6", "5.41", null, "5.7", null, "0.22", "0.40", null, "0.14", null, "1.3", "106", null, "37", null ]
+, [ "row-qqy3-w8wr-iduc", "00000000-0000-0000-3818-C5C0A17CC48B", 0, 1660681497, null, 1660681497, null, "{ }", "1123", "2017-01-25T00:00:00.000", "IBAL", "1", "8.31", "20.3", "47", "190", "8.13", "78", "24195", "24,196", "2", "5", "5.17", null, "2.7", null, "0.32", "0.60", null, "0.08", null, "1.9", "42", null, "11", null ]
+, [ "row-5yuf.iuyn.d2av", "00000000-0000-0000-8D43-E5BAAD57A91C", 0, 1660681497, null, 1660681497, null, "{ }", "1124", "2017-01-25T00:00:00.000", "IBAL", "1", "8.15", "20.6", "26", "82", "2.05", "19", "24196", "1,710", "0", "1", "4.75", null, "1.5", null, "0.15", "0.20", null, "0.01", null, "1.2", "40", null, "7", null ]
+, [ "row-w5rq~5kci~v9a3", "00000000-0000-0000-E89C-CA2F848313FB", 0, 1660681497, null, 1660681497, null, "{ }", "1122", "2017-02-15T00:00:00.000", "IBAL", "1", "8.10", "16.0", "119", "304", "6.41", "33", "38730", "24,810", "1", "3", "***", null, "4.3", null, "0.38", "0.40", null, "0.09", null, "2.9", "142", null, "70", null ]
+, [ "row-zytf~pvta-q997", "00000000-0000-0000-1B42-5F4BAFC33151", 0, 1660681497, null, 1660681497, null, "{ }", "1123", "2017-02-15T00:00:00.000", "IBAL", "1", "7.67", "17.00", "56", "275", "4.99", "17", "23590", "2,110", "1", "2", "3.13", null, "4.2", null, "0.10", "0.10", null, "0.01", null, "2.00", "104", null, "14", null ]
+, [ "row-nkrj_9fdw~iwcm", "00000000-0000-0000-B5F6-CC2C3577B5C3", 0, 1660681497, null, 1660681497, null, "{ }", "1124", "2017-02-15T00:00:00.000", "IBAL", "1", "7.74", "20.1", "48", "67.8", "6.09", "47", "34480", "100", "3", "8", "5.81", null, "2.0", null, "0.06", "0.10", null, "0.04", null, "0.9", "35", null, "0", null ]
+, [ "row-pmg8-f3ym~79ew", "00000000-0000-0000-62D2-15A66C3D10E9", 0, 1660681497, null, 1660681497, null, "{ }", "1122", "2017-03-15T00:00:00.000", "IBAL", "1", "8.24", "19.8", "***", "287", "50.0", "205", "72700", "24,810", "2", "4", "***", null, "4.9", null, "0.36", "1.10", null, "0.16", null, "1.8", "***", null, "43", null ]
+, [ "row-8hqx_2c9v~gyyr", "00000000-0000-0000-1F2E-74C3088ED2EF", 0, 1660681497, null, 1660681497, null, "{ }", "1123", "2017-03-15T00:00:00.000", "IBAL", "1", "8.01", "19.6", "***", "162", "7.12", "47", "77010", "3,410", "3", "6", "***", null, "1.1", null, "0.13", "0.40", null, "0.02", null, "2.6", "***", null, "4", null ]
+, [ "row-t6nt~typk~ktbi", "00000000-0000-0000-C077-4E8A8D7CB335", 0, 1660681497, null, 1660681497, null, "{ }", "1124", "2017-03-15T00:00:00.000", "IBAL", "1", "7.81", "20.1", "58", "92", "16.8", "83", "15531", "1,100", "***", "***", "***", null, "2.0", null, "0.29", "0.30", null, "0.03", null, "3", "***", null, "0", null ]
+, [ "row-72u6~x9ei-qj23", "00000000-0000-0000-3FEB-5D3C827303D5", 0, 1660681497, null, 1660681497, null, "{ }", "1122", "2017-04-28T00:00:00.000", "IBAL", "1", "8.09", "19.2", "136", "287", "28.6", "139", "36540", "8,840", "***", "***", "***", null, "6.3", null, "0.41", "0.80", null, "0.19", "0.003", "1.0", "104", null, "48", null ]
+, [ "row-iz9i.8iwf.qu8j", "00000000-0000-0000-5170-709D52DFDCA9", 0, 1660681497, null, 1660681497, null, "{ }", "1123", "2017-04-28T00:00:00.000", "IBAL", "1", "8.00", "20.2", "67", "149", "7.9", "49", "34480", "3,050", "***", "***", "***", null, "1.6", null, "0.19", "0.30", null, "0.02", "0.005", "1.2", "65", null, "4", null ]
+, [ "row-utd3_vdxt~gjh3", "00000000-0000-0000-DF47-29BC1476CA4D", 0, 1660681497, null, 1660681497, null, "{ }", "1124", "2017-04-19T00:00:00.000", "IBAL", "1", "7.96", "19.2", "36", "91", "11.8", "78", "4020", "840", "***", "***", "***", null, "3.4", null, "0.21", "***", null, "0.05", "0.007", "1.5", "36", null, "0", null ]
+, [ "row-ttsc-pwje~ardc", "00000000-0000-0000-BC3F-C25194F74ADE", 0, 1660681497, null, 1660681497, null, "{ }", "1122", "2017-05-17T00:00:00.000", "IBAL", "1", "7.96", "19.4", "109", "215", "102", "580", "46110", "8,820", "***", "9", "***", null, "3.4", null, "0.56", "3.20", null, "0.38", "0.022", "10.7", "124", null, "37", null ]
+, [ "row-cc2d.dx8y.pn4b", "00000000-0000-0000-2B47-2EDA95D36E11", 0, 1660681497, null, 1660681497, null, "{ }", "1123", "2017-05-17T00:00:00.000", "IBAL", "1", "8.03", "19.3", "72", "146", "7.21", "31", "92080", "16,640", "***", "6", "***", null, "2.8", null, "0.11", "0.90", null, "0.02", "0.016", "0.9", "68", null, "2", null ]
+, [ "row-grg7-vqk5-xiap", "00000000-0000-0000-A650-AB3E8AC223F2", 0, 1660681497, null, 1660681497, null, "{ }", "1124", "2017-05-17T00:00:00.000", "IBAL", "1", "7.94", "20.2", "52", "83", "5.48", "23", "43520", "410", "***", "2", "***", null, "1.1", null, "0.14", "0.40", null, "0.01", "0.009", "0.9", "28", null, "0", null ]
+, [ "row-era4-paqw~k564", "00000000-0000-0000-33B0-FEEEB7A91D86", 0, 1660681497, null, 1660681497, null, "{ }", "1122", "2017-06-14T00:00:00.000", "IBAL", "1", "8.21", "17.9", "114", "252", "124.0", "590", "61310", "22,470", "3", "5", "***", null, "5.0", null, "0.63", "2.60", null, "0.52", "0.019", "2.9", "84", null, "50", null ]
+, [ "row-vezq_vjwi_m2eh", "00000000-0000-0000-DF0B-4A23AE27B0AF", 0, 1660681497, null, 1660681497, null, "{ }", "1123", "2017-06-14T00:00:00.000", "IBAL", "1", "8.24", "18.4", "58", "135", "50.90", "291", "241960", "16,160", "1", "3", "***", null, "2.0", null, "0.25", "1.30", null, "0.28", "0.012", "2.7", "48", null, "0", null ]
+, [ "row-537b.pmy7.e3dg", "00000000-0000-0000-4A76-0E6851A93CE9", 0, 1660681497, null, 1660681497, null, "{ }", "1124", "2017-06-15T00:00:00.000", "IBAL", "1", "8.06", "20.4", "37", "70", "20.20", "93", "57940", "1,480", "3", "6", "***", null, "1.7", null, "0.32", "0.60", null, "0.07", "0.009", "1.5", "42", null, "0", null ]
+, [ "row-ad86~aiiy-5mzb", "00000000-0000-0000-BD85-05C71EB102CA", 0, 1660681497, null, 1660681497, null, "{ }", "1122", "2017-07-19T00:00:00.000", "IBAL", "1", "8.12", "18.5", "163", "256", "264.0", "770", "41060", "6,700", "6", "14", "***", null, "6.2", null, "0.73", "4.0", null, "0.7", "***", "2.1", "102", null, "46", null ]
+, [ "row-c7fv-tgtb-nstq", "00000000-0000-0000-A6C9-D5B2250DB032", 0, 1660681497, null, 1660681497, null, "{ }", "1123", "2017-07-19T00:00:00.000", "IBAL", "1", "8.08", "19.4", "93", "150", "4.7", "42", "54750", "3,640", "2", "5", "***", null, "3.2", null, "0.17", "0.7", null, "0.0", "***", "1.5", "60", null, "9", null ]
+, [ "row-bszy_i2w6-ucj3", "00000000-0000-0000-CEBC-7D44C32FDFFF", 0, 1660681497, null, 1660681497, null, "{ }", "1124", "2017-07-19T00:00:00.000", "IBAL", "1", "8.01", "21.1", "48", "80", "84.2", "56", "48840", "630", "4", "9", "***", null, "1.6", null, "0.29", "0.3", null, "0.0", "***", "1.0", "29", null, "0", null ]
+, [ "row-m7pz~hcux~86vd", "00000000-0000-0000-0E05-95F7290C11ED", 0, 1660681497, null, 1660681497, null, "{ }", "1122", "2017-08-16T00:00:00.000", "IBAL", "1", "8.27", "19.5", "175", "355", "4.40", "25", "24810", "10,500", "4", "2", "***", null, "8.9", null, "0.30", "0.4", null, "0.0", "***", "1.2", "119", null, "62", null ]
+, [ "row-c7v3~3i8i.b352", "00000000-0000-0000-5EC9-BFF5028824C8", 0, 1660681497, null, 1660681497, null, "{ }", "1123", "2017-08-16T00:00:00.000", "IBAL", "1", "8.17", "20.1", "73", "156", "2.20", "6", "38730", "2,280", "4", "2", "***", null, "2.6", null, "0.16", "0.6", null, "0.0", "***", "1.0", "75", null, "13", null ]
+, [ "row-a8nt_mav7~tanr", "00000000-0000-0000-0C83-B05089E47F00", 0, 1660681497, null, 1660681497, null, "{ }", "1124", "2017-08-16T00:00:00.000", "IBAL", "1", "8.34", "20.4", "40", "90", "5.21", "48", "27550", "0", "6", "4", "***", null, "2.0", null, "0.22", "6.0", null, "0.0", "***", "0.9", "35", null, "0", null ]
+, [ "row-ws8n-hqnc~6mes", "00000000-0000-0000-BF05-8E2D31609317", 0, 1660681497, null, 1660681497, null, "{ }", "1122", "2017-09-13T00:00:00.000", "IBAL", "1", "8.19", "18.1", "134", "266", "80.70", "420", "241960", "12,960", "3", "7", "***", null, "3.0", null, "0.82", "2.7", null, "0.44", "***", "3.1", "110", null, "57", null ]
+, [ "row-pzvm_zsjx_3cdm", "00000000-0000-0000-6AA7-C7A722935B22", 0, 1660681497, null, 1660681497, null, "{ }", "1123", "2017-09-13T00:00:00.000", "IBAL", "1", "8.20", "18.4", "68.7", "119", "131.0", "540", "241960", "24,230", "14", "31", "***", null, "5.4", null, "0.84", "3.7", null, "0.54", "***", "3.3", "52", null, "13", null ]
+, [ "row-edy6~4w97.4fid", "00000000-0000-0000-4BD5-02BDF1D81A9E", 0, 1660681497, null, 1660681497, null, "{ }", "1124", "2017-09-14T00:00:00.000", "IBAL", "1", "7.93", "20.1", "40.4", "75", "8.84", "36", "77010", "410", "4", "9", "***", null, "0.9", null, "0.26", "0.8", null, "0.01", "***", "1.9", "34", null, "0", null ]
+, [ "row-grzg-ipu8~r68r", "00000000-0000-0000-252B-06C9057705B3", 0, 1660681497, null, 1660681497, null, "{ }", "1122", "2017-10-18T00:00:00.000", "IBAL", "1", "8.22", "18.2", "146", "283", "7.12", "36", "20140", "5,210", "4", "10", "***", null, "7.7", null, "0.32", "1.7", null, "0.03", "***", "0.8", "83", null, "51", null ]
+, [ "row-b4zn-fs7k.g8qs", "00000000-0000-0000-FBD8-C61AF18FA23B", 0, 1660681497, null, 1660681497, null, "{ }", "1123", "2017-10-18T00:00:00.000", "IBAL", "1", "8.17", "19.3", "74.0", "146", "2.40", "18", "57720", "5,120", "0", "1", "***", null, "2.2", null, "0.29", "1.4", null, "0.11", "***", "0.7", "66", null, "11", null ]
+, [ "row-7prg-m7ee.bedm", "00000000-0000-0000-507D-48A56B95663C", 0, 1660681497, null, 1660681497, null, "{ }", "1124", "2017-10-18T00:00:00.000", "IBAL", "1", "8.27", "20.2", "32.0", "77.4", "5.85", "35", "36540", "210", "1", "3", "***", null, "1.1", null, "0.29", "0.5", null, "0.04", "***", "0.2", "43", null, "0", null ]
+, [ "row-dwmi_hsxq~cbq7", "00000000-0000-0000-E3AF-639B7BD21B8E", 0, 1660681497, null, 1660681497, null, "{ }", "1122", "2017-11-15T00:00:00.000", "IBAL", "1", "8.34", "19.0", "132", "271", "75.8", "412", "241960", "61,310", "8", "18", "***", null, "2.8", null, "0.58", "1.6", null, "0.40", "***", "2.8", "96", null, "50", null ]
+, [ "row-nzqs_zq37_qzjv", "00000000-0000-0000-7765-1D46D789F86D", 0, 1660681497, null, 1660681497, null, "{ }", "1123", "2017-11-15T00:00:00.000", "IBAL", "1", "8.18", "19.3", "53.0", "118", "836", "2562", "241960", "241,960", "1", "3", "***", null, "1.1", null, "1.46", "13.2", null, "2.57", "***", "1.1", "45", null, "8", null ]
+, [ "row-5ikw~hps2-yp7m", "00000000-0000-0000-A18A-5EAA582D8614", 0, 1660681497, null, 1660681497, null, "{ }", "1124", "2017-11-15T00:00:00.000", "IBAL", "1", "7.92", "19.1", "38.0", "80", "8.67", "32", "198630", "2,490", "1", "2", "***", null, "2.7", null, "0.35", "0.6", null, "0.06", "***", "1.3", "23", null, "0", null ]
+, [ "row-zhw4_jcju_u79c", "00000000-0000-0000-7BE8-0519220FEFDE", 0, 1660681497, null, 1660681497, null, "{ }", "1122", "2017-12-13T00:00:00.000", "IBAL", "1", "8.24", "19.3", "287", "265", "54.3", "214", "21430", "6,370", "3", "5", "***", null, "7.6", null, "0.55", "1.6", null, "0.24", "***", "2.6", "89", null, "52", null ]
+, [ "row-5sib_dgm6_wy65", "00000000-0000-0000-588D-CB2715139592", 0, 1660681497, null, 1660681497, null, "{ }", "1123", "2017-12-13T00:00:00.000", "IBAL", "1", "8.30", "19.7", "151", "142", "5.57", "22", "72700", "22,470", "0", "1", "***", null, "2.2", null, "0.20", "0.6", null, "0.02", "***", "0.9", "65", null, "8", null ]
+, [ "row-kvga_aik8_g9aa", "00000000-0000-0000-24FA-034780480FCE", 0, 1660681497, null, 1660681497, null, "{ }", "1124", "2017-12-13T00:00:00.000", "IBAL", "1", "8.23", "18.7", "78", "73", "4.38", "17", "43520", "300", "0", "1", "***", null, "2.4", null, "0.15", "0.5", null, "0.03", "***", "1.6", "25", null, "0", null ]
+, [ "row-94ud~avdw_7h59", "00000000-0000-0000-DE6F-83EDAC47EDEE", 0, 1660681497, null, 1660681497, null, "{ }", "1124", "2018-01-10T00:00:00.000", "IBAL", "1", "8.32", "19.3", "134", "335", "13.0", "37", "38730", "11,980", "2", "6", "8.29", "***", "11.4", "***", "0.11", "0.80", "***", "0.09", "***", "1.1", "120", null, "58", "***" ]
+, [ "row-hcx6.tds8-8x7g", "00000000-0000-0000-7599-36D2698B20F0", 0, 1660681497, null, 1660681497, null, "{ }", "1122", "2018-01-10T00:00:00.000", "IBAL", "1", "8.40", "18.9", "60", "161", "4.10", "21", "81640", "4,500", "1", "3", "8.32", "***", "3.0", "***", "0.27", "0.30", "***", "0.03", "***", "1.1", "52", null, "9", "***" ]
+, [ "row-zzde_cjc5-q9gp", "00000000-0000-0000-D287-CD2D886A56E5", 0, 1660681497, null, 1660681497, null, "{ }", "1123", "2018-01-10T00:00:00.000", "IBAL", "1", "8.33", "19.0", "29", "87", "10.7", "28", "36540", "630", "4", "11", "7.80", "***", "1.9", "***", "0.19", "1.30", "***", "0.01", "***", "0.5", "44", null, "0", "***" ]
+, [ "row-k7wz-qccn-pw6y", "00000000-0000-0000-304D-F1D19F3DC5E2", 0, 1660681497, null, 1660681497, null, "{ }", "1124", "2018-02-14T00:00:00.000", "IBAL", "1", "8.23", "20.1", "150", "321", "4.74", "28", "34480", "9,880", "3", "11", "7.88", null, null, null, "0.23", "0.60", null, "0.03", "0.008", "1.5", null, null, "62", "0.21" ]
+, [ "row-h9k7~emvx_rizn", "00000000-0000-0000-5CB9-212F44BA0C8C", 0, 1660681497, null, 1660681497, null, "{ }", "1122", "2018-02-14T00:00:00.000", "IBAL", "1", "8.22", "19.9", "59", "157", "4.34", "23", "61310", "9,600", "4", "6", "7.87", null, null, null, "0.21", "1.4", null, "0.0", "0.004", "1.6", null, null, "13", "0.14" ]
+, [ "row-hfiv~pfw6-vtgn", "00000000-0000-0000-CCF5-9C80A2081FEF", 0, 1660681497, null, 1660681497, null, "{ }", "1123", "2018-02-14T00:00:00.000", "IBAL", "1", "8.13", "19.1", "31", "90", "7.54", "35", "20460", "200", "3", "5", "8.64", null, "0.9", null, "0.08", "0.3", null, "0.0", "0.005", "1.3", null, null, "0", "0.25" ]
+, [ "row-qd9e-nda7~jk5s", "00000000-0000-0000-66B1-D57BE56D687F", 0, 1660681497, null, 1660681497, null, "{ }", "1124", "2018-03-14T00:00:00.000", "IBAL", "1", "8.40", "18.9", "140", "341", "24.30", "33", "61640", "17,850", "3", "5", "5.02", null, null, null, "0.45", "1.40", null, "0.23", "0.015", null, null, null, null, "0.33" ]
+, [ "row-nmji~6s5e~zyif", "00000000-0000-0000-9717-7F19A60CEBAC", 0, 1660681497, null, 1660681497, null, "{ }", "1122", "2018-03-14T00:00:00.000", "IBAL", "1", "8.57", "19.1", "58", "148", "5.02", "18", "120330", "29,090", "5", "10", "8.12", null, null, null, "0.11", "1.1", null, "0.0", "0.007", null, null, null, null, "0.23" ]
+, [ "row-cqfq-7yqy-8qqp", "00000000-0000-0000-89A2-66B1D3C1D4AB", 0, 1660681497, null, 1660681497, null, "{ }", "1123", "2018-03-14T00:00:00.000", "IBAL", "1", "8.33", "20.5", "31", "81", "4.19", "19", "30760", "520", "3", "19", "7.98", null, null, null, "0.07", "1.1", null, "0.0", "0.005", null, null, null, null, "0.23" ]
+, [ "row-pq47_8shs.t5n6", "00000000-0000-0000-FE67-A165776E19EC", 0, 1660681497, null, 1660681497, null, "{ }", "1124", "2018-04-18T00:00:00.000", "IBAL", "1", "8.27", "19.1", "101", "251", "39.2", "202", "241960", "9,880", "1", "2", "8.22", null, null, null, "0.64", "1.00", null, "0.02", null, "2.8", null, null, null, "0.20" ]
+, [ "row-pdjc.2527~zbns", "00000000-0000-0000-2257-CC1F8A1DFC2E", 0, 1660681497, null, 1660681497, null, "{ }", "1122", "2018-04-18T00:00:00.000", "IBAL", "1", "8.30", "18.9", "56", "145", "6.0", "35", "241960", "2,750", "0", "1", "7.96", null, null, null, "0.15", "0.9", null, "0.0", null, "1.2", null, null, null, "0.18" ]
+, [ "row-ea7b~4msc.tzgx", "00000000-0000-0000-BA7C-12AB92E80197", 0, 1660681497, null, 1660681497, null, "{ }", "1123", "2018-04-18T00:00:00.000", "IBAL", "1", "7.91", "19.7", "30", "81", "6.14", "38", "34480", "310", "1", "2", "8.82", null, null, null, "0.05", "0.8", null, "0.0", null, "1.5", null, null, null, "0.20" ]
+, [ "row-m54d~6du8-hwy5", "00000000-0000-0000-ACAD-E70172D162EC", 0, 1660681497, null, 1660681497, null, "{ }", "1124", "2018-05-16T00:00:00.000", "IBAL", "1", "8.08", "17.8", "74", "196", "134.0", "460", "15530", "5,650", "2", "7", "8.28", null, null, null, "0.41", "2.90", null, "0.42", null, null, null, null, null, "0.70" ]
+, [ "row-g85h_57bm-gdtk", "00000000-0000-0000-84B6-9849C70A3B30", 0, 1660681497, null, 1660681497, null, "{ }", "1122", "2018-05-16T00:00:00.000", "IBAL", "1", "8.10", "18.6", "50", "133", "22.6", "111", "38730", "3,680", "13", "32", "8.19", null, null, null, "0.20", "1.0", null, "0.11", null, null, null, null, null, "0.28" ]
+, [ "row-ajz4~3gg9~nq7c", "00000000-0000-0000-2C93-4B7EE6F0933C", 0, 1660681497, null, 1660681497, null, "{ }", "1123", "2018-05-16T00:00:00.000", "IBAL", "1", "8.19", "17.5", "29", "78", "11.3", "42", "16070", "100", "6", "11", "8.11", null, null, null, "0.10", "0.5", null, "0.1", null, null, null, null, null, "0.29" ]
+, [ "row-v96v_xraf.qbt4", "00000000-0000-0000-9D88-611280A04323", 0, 1660681497, null, 1660681497, null, "{ }", "1124", "2018-06-13T00:00:00.000", "IBAL", "1", "8.20", "17.0", "73", "188", "1099.0", "4330", "155310", "850", "9", "20", "6.72", null, null, null, "1.69", "26.60", null, "3.78", null, null, null, null, null, "2.80" ]
+, [ "row-g3s9.tntf-pk7w", "00000000-0000-0000-6466-95E7E20A8C6A", 0, 1660681497, null, 1660681497, null, "{ }", "1122", "2018-06-13T00:00:00.000", "IBAL", "1", "8.23", "17.2", "50", "129", "24.6", "131", "51720", "12,740", "2", "6", "7.19", null, null, null, "0.34", "1.4", null, "0.16", null, null, null, null, null, "0.28" ]
+, [ "row-ph8z-37b5_yr25", "00000000-0000-0000-ADBD-1A5A4E07525A", 0, 1660681497, null, 1660681497, null, "{ }", "1123", "2018-06-13T00:00:00.000", "IBAL", "1", "8.11", "18.9", "29", "73", "9.05", "33", "32550", "200", "1", "3", "7.89", null, null, null, "0.10", "0.4", null, "0.23", null, null, null, null, null, "0.40" ]
+, [ "row-e2zs.ex6d~q4zd", "00000000-0000-0000-65FC-63E6664DBB29", 0, 1660681497, null, 1660681497, null, "{ }", "1124", "2018-07-18T00:00:00.000", "IBAL", "1", "8.05", "17.8", "111", "282", "282", "65", "21430", "5,200", "4", "2", "8.13", null, null, null, "0.36", "0.8", null, "0.07", "0.003", "0.6", "126", null, "56", null ]
+, [ "row-ajf5-vwbi_spns", "00000000-0000-0000-BAC4-2E9CD269C043", 0, 1660681497, null, 1660681497, null, "{ }", "1122", "2018-07-18T00:00:00.000", "IBAL", "1", "8.04", "18.2", "54", "139", "139", "9", "34480", "3,090", "2", "1", "8.01", null, null, null, "0.28", "0.3", null, "0.03", "0.003", "0.3", "56", null, "6", null ]
+, [ "row-ktem.kyud~34a3", "00000000-0000-0000-CE5B-F14F7AC02822", 0, 1660681497, null, 1660681497, null, "{ }", "1123", "2018-07-18T00:00:00.000", "IBAL", "1", "8.16", "18.9", "30", "78", "78", "24", "18750", "200", "2", "1", "5.89", null, null, null, "0.25", "0.3", null, "0.04", "0.004", "0.8", "30", null, "0", null ]
+, [ "row-v7ii.yxi3~nxbv", "00000000-0000-0000-2E32-3A852E46CD50", 0, 1660681497, null, 1660681497, null, "{ }", "1124", "2018-08-15T00:00:00.000", "IBAL", "1", "8.16", "18.9", "91", "223", "73.0", "254", "34480", "13,540", "***", "4", "8.13", null, null, null, "0.70", "1.8", null, "0.25", "0.019", "2.0", "83", null, "35", null ]
+, [ "row-3wnw.zpst_pq9h", "00000000-0000-0000-3046-6047533C0B99", 0, 1660681497, null, 1660681497, null, "{ }", "1122", "2018-08-15T00:00:00.000", "IBAL", "1", "8.18", "19.0", "56", "139", "18.5", "33", "27550", "5,760", "***", "2", "8.01", null, null, null, "0.26", "0.6", null, "0.06", "0.009", "1.0", "48", null, "4", null ]
+, [ "row-xc4c.365w-u622", "00000000-0000-0000-146D-731073E15057", 0, 1660681497, null, 1660681497, null, "{ }", "1123", "2018-08-15T00:00:00.000", "IBAL", "1", "8.01", "18.0", "38", "125", "13.9", "21", "32550", "200", "***", "2", "5.89", null, null, null, "0.17", "0.3", null, "0.08", "0.005", "0.8", "11", null, "0", null ]
+, [ "row-peww~rhr9~b6gc", "00000000-0000-0000-EFA1-55CA15A87B63", 0, 1660681497, null, 1660681497, null, "{ }", "1124", "2018-09-12T00:00:00.000", "IBAL", "1", "8.17", "18.2", "119", "301", "6.13", "35", "15650", "5,650", "2", "4", "8.53", null, null, null, null, "0.5", null, "0.06", "0.009", "1.9", "128", null, "56", null ]
+, [ "row-hnqe-j6s2.jdps", "00000000-0000-0000-4177-C791924D0279", 0, 1660681497, null, 1660681497, null, "{ }", "1122", "2018-09-12T00:00:00.000", "IBAL", "1", "8.26", "18.1", "56", "145", "2.99", "26", "29090", "4,810", "1", "3", "8.50", null, null, null, null, "0.2", null, "0.05", "0.005", "0.5", "85", null, "4", null ]
+, [ "row-ymz7.3fam_e8cv", "00000000-0000-0000-8AC1-5752A3CA7A8D", 0, 1660681497, null, 1660681497, null, "{ }", "1123", "2018-09-12T00:00:00.000", "IBAL", "1", "8.12", "19.1", "31", "82", "6.15", "28", "17260", "0", "1", "3", "8.51", null, null, null, null, "0.2", null, "0.01", "0.005", "0.5", "57", null, "0", null ]
+, [ "row-vvvt-ruj9_bt6p", "00000000-0000-0000-6E67-B359039D54E5", 0, 1660681497, null, 1660681497, null, "{ }", "1122", "2018-10-17T00:00:00.000", "IBAL", "1", "8.12", "18.4", "126", "313", "63.10", "270", "68670", "5,040", "2", "4", "8.37", null, null, null, null, "1.9", null, "0.19", "0.013", "1.0", "120", null, "52", null ]
+, [ "row-hr3p_sf4k_76q7", "00000000-0000-0000-9EBC-43F52AB06746", 0, 1660681497, null, 1660681497, null, "{ }", "1123", "2018-10-17T00:00:00.000", "IBAL", "1", "8.08", "18.8", "60", "155", "2.75", "14", "173290", "8,360", "1", "3", "8.25", null, null, null, null, "0.4", null, "0.01", "0.008", "0.7", "55", null, "5", null ]
+, [ "row-rr24-spxq-sfnp", "00000000-0000-0000-09CC-7168180774BA", 0, 1660681497, null, 1660681497, null, "{ }", "1124", "2018-10-17T00:00:00.000", "IBAL", "1", "8.11", "18.9", "33", "88", "7.53", "27", "30760", "0", "1", "2", "8.57", null, null, null, null, "0.9", null, "0.01", "0.005", "1.5", "26", null, "0", null ]
+, [ "row-8959_mh37-35nx", "00000000-0000-0000-F176-8993CE6BDF8D", 0, 1660681497, null, 1660681497, null, "{ }", "1122", "2018-11-14T00:00:00.000", "IBAL", "1", "8.12", "18.7", "126", "383", "15.80", "55", "32550", "13,760", "1", "2", "8.15", null, null, null, null, "1", null, "0.07", "0.007", "0.5", "120", null, "54", null ]
+, [ "row-nbjt~utw7_xdyr", "00000000-0000-0000-FC82-D54B86A04233", 0, 1660681497, null, 1660681497, null, "{ }", "1123", "2018-11-14T00:00:00.000", "IBAL", "1", "8.28", "18.3", "60", "150", "4.28", "20", "30760", "3,840", "0", "1", "8.12", null, null, null, null, "0.4", null, "0.05", "0.004", "0.9", "54", null, "6", null ]
+, [ "row-4cmx_sbkw~phaw", "00000000-0000-0000-F02A-FABA81A963BE", 0, 1660681497, null, 1660681497, null, "{ }", "1124", "2018-11-14T00:00:00.000", "IBAL", "1", "8.43", "20.9", "33", "86.7", "3.88", "16", "13960", "200", "0", "1", "7.06", null, null, null, null, "0.7", null, "0.03", "0.009", "1.2", "18", null, "0", null ]
+, [ "row-4spm_jtc7~mtdr", "00000000-0000-0000-AEFE-CDAA7584C84D", 0, 1660681497, null, 1660681497, null, "{ }", "1122", "2018-12-12T00:00:00.000", "IBAL", "1", "8.39", "17.5", "131", "319", "13.50", "33", "36540", "22,470", "1", "2", "8.67", null, null, null, null, "0.6", null, "0.11", "0.009", "1.3", "128", null, "57", "0.29" ]
+, [ "row-f8uc_fjvm~enyc", "00000000-0000-0000-777B-9811B441A9BC", 0, 1660681497, null, 1660681497, null, "{ }", "1123", "2018-12-12T00:00:00.000", "IBAL", "1", "8.50", "15.1", "60", "151", "3.33", "12", "51720", "3,990", "0", "0.7", "8.21", null, null, null, null, "0.2", null, "0.06", "0.005", "0.7", "58", null, "9", "0.38" ]
+, [ "row-jncn~xzat~ctzv", "00000000-0000-0000-FB08-887282421038", 0, 1660681497, null, 1660681497, null, "{ }", "1124", "2018-12-12T00:00:00.000", "IBAL", "1", "8.14", "18.8", "33", "90", "14.50", "93", "10170", "200", "10", "26", "9.24", null, null, null, null, "0.8", null, "0.11", "0.004", "0.8", "45", null, "0", "0.8" ]
+, [ "row-ub2e~nb7s_y8e7", "00000000-0000-0000-6C47-EBD8549F842C", 0, 1660681497, null, 1660681497, null, "{ }", "1124", "2019-01-16T00:00:00.000", "IBAL", "1", "8.33", "18.1", "146", "366", "11.5", "65", "46110", "24,810", "1", "2.0", "8.01", null, null, null, null, "0.60", null, "0.10", "0.005", "0.8", "135", null, "58", "0.41" ]
+, [ "row-frtj_n2ky.v77j", "00000000-0000-0000-861D-C3FE25B007D3", 0, 1660681497, null, 1660681497, null, "{ }", "1122", "2019-01-16T00:00:00.000", "IBAL", "1", "8.25", "18.6", "60", "155", "1.59", "5", "26130", "4,350", "0", "1.0", "7.92", null, null, null, null, "0.60", null, "0.08", "0.003", "0.8", "49", null, "7", "0.47" ]
+, [ "row-txbf-djji-38p6", "00000000-0000-0000-D39B-64C1BA99454C", 0, 1660681497, null, 1660681497, null, "{ }", "1123", "2019-01-16T00:00:00.000", "IBAL", "1", "8.19", "19.1", "35", "89", "7.74", "26", "26130", "100", "0", "1.0", "7.91", null, null, null, null, "0.30", null, "0.01", "0.001", "1.0", "38", null, "0", "0.39" ]
+, [ "row-8qih~yc9j.fny2", "00000000-0000-0000-377C-5D1A884B3E70", 0, 1660681497, null, 1660681497, null, "{ }", "1124", "2019-02-21T00:00:00.000", "IBAL", "1", "8.24", "19.2", "145", "329", "24.2", "95", "36540", "20,140", "1", "2.0", "7.90", null, null, null, null, "0.30", null, "0.02", "0.009", "2.0", "142", null, "62", "0.44" ]
+, [ "row-d6fg~qgz8-tr85", "00000000-0000-0000-EFC9-FFD042009AD2", 0, 1660681497, null, 1660681497, null, "{ }", "1122", "2019-02-21T00:00:00.000", "IBAL", "1", "8.22", "19.5", "61", "138", "3.2", "13", "51720", "6,820", "0", "1.0", "7.84", null, null, null, null, "0.40", null, "0.04", "0.006", "1.0", "75", null, "11", "0.37" ]
+, [ "row-7nbs_94z2-rbry", "00000000-0000-0000-C5F5-CC5FCBC4C962", 0, 1660681497, null, 1660681497, null, "{ }", "1123", "2019-02-21T00:00:00.000", "IBAL", "1", "8.18", "19.2", "35", "79.3", "4.86", "26", "27230", "520", "0", "1.0", "7.52", null, null, null, null, "0.40", null, "0.12", "0.011", "1.6", "14", null, "0", "2.74" ]
+, [ "row-jtzc.82ke~dyd2", "00000000-0000-0000-701F-AF790579600F", 0, 1660681497, null, 1660681497, null, "{ }", "1124", "2019-03-20T00:00:00.000", "IBAL", "1", "8.15", "18.8", "128", "284", "24.3", "154", "61310", "19,180", "1", "3.6", "8.28", null, null, null, "0.62", "1.50", null, "2.03", "0.004", "1.1", "128", null, "59", null ]
+, [ "row-8ip9_4vs7.v3by", "00000000-0000-0000-A2CB-FCA210AAE6B3", 0, 1660681497, null, 1660681497, null, "{ }", "1122", "2019-03-20T00:00:00.000", "IBAL", "1", "8.22", "19.0", "55", "122", "4.36", "25", "29090", "3,840", "1", "0.5", "8.20", null, null, null, "0.61", "1.70", null, "2.19", "0.003", "0.6", "58", null, "11", null ]
+, [ "row-r8ub-uubr-jsga", "00000000-0000-0000-D5B7-5DD0B7B9C7F2", 0, 1660681497, null, 1660681497, null, "{ }", "1123", "2019-03-21T00:00:00.000", "IBAL", "1", "8.16", "20.1", "30", "66", "7.59", "29", "34480", "860", "0", "11", "7.44", null, null, null, "0.18", "0.50", null, "0.08", "0.007", "0.8", "29", null, "0", null ]
+, [ "row-refd_tfkz_nbc9", "00000000-0000-0000-442F-F327F6140956", 0, 1660681497, null, 1660681497, null, "{ }", "1124", "2019-04-24T00:00:00.000", "IBAL", "1", "8.02", "18.8", "28", "288", "22.2", "115", "141360", "11,690", "0", "2.0", "8.28", null, null, null, "0.44", "1.20", null, "0.18", "0.005", "0.4", "125", null, "58", null ]
+, [ "row-udnf_25p4.zgyn", "00000000-0000-0000-CBDF-C5888991E71F", 0, 1660681497, null, 1660681497, null, "{ }", "1122", "2019-04-24T00:00:00.000", "IBAL", "1", "7.80", "19.1", "2", "125.3", "11.0", "56", "68670", "9,590", "0", "0.0", "8.20", null, null, null, "0.16", "0.80", null, "0.08", "0.008", "0.6", "63", null, "6", null ]
+, [ "row-kaem_fktw_846b", "00000000-0000-0000-C3A6-4E082A1198DB", 0, 1660681497, null, 1660681497, null, "{ }", "1123", "2019-04-24T00:00:00.000", "IBAL", "1", "8.09", "20", "2", "69.1", "6.1", "32", "22470", "850", "0", "1", "7.44", null, null, null, "0.13", "0.30", null, "0.05", "0.006", "0.7", "30", null, "0", null ]
+, [ "row-jdj7.4iki_e6vj", "00000000-0000-0000-3146-1AD44B59AA42", 0, 1660681497, null, 1660681497, null, "{ }", "1124", "2019-05-29T00:00:00.000", "IBAL", "1", "7.82", "20.2", "109", "234", "6.76", "31", "30760", "11,260", "3", "8.0", "8.15", null, null, null, "0.42", "0.30", null, "0.10", "0.006", "0.1", null, null, "51", null ]
+, [ "row-j9k2_4s3z-5yu4", "00000000-0000-0000-5F3B-3B3B57136325", 0, 1660681497, null, 1660681497, null, "{ }", "1122", "2019-05-29T00:00:00.000", "IBAL", "1", "7.76", "20.6", "61", "120", "5.81", "27", "155310", "14,670", "3", "8.0", "8.13", null, null, null, "0.07", "0.50", null, "0.06", "0.009", "1.0", null, null, "10", null ]
+, [ "row-7eke~79ig_7f9f", "00000000-0000-0000-B5C0-01704A305C2C", 0, 1660681497, null, 1660681497, null, "{ }", "1124", "2019-06-19T00:00:00.000", "IBAL", "1", "7.67", "18.9", "111", "246", "10.90", "47", "24810", "6,310", "2", "3.0", "8.39", null, null, null, "0.35", "0.50", null, "0.12", "0.014", "1.6", null, null, "50", null ]
+, [ "row-d9m7~dp59-n3y9", "00000000-0000-0000-4E3C-0FE9FE3F188B", 0, 1660681497, null, 1660681497, null, "{ }", "1122", "2019-06-19T00:00:00.000", "IBAL", "1", "7.62", "19.5", "56", "125", "4.96", "21", "61310", "5,650", "1", "2.0", "8.35", null, null, null, "0.37", "0.50", null, "0.02", "0.007", "2.0", null, null, "3", null ]
+, [ "row-mnij_axr5-pgdq", "00000000-0000-0000-94A1-77D8A365D235", 0, 1660681497, null, 1660681497, null, "{ }", "1123", "2019-06-19T00:00:00.000", "IBAL", "1", "7.91", "21", "30", "67.9", "6.26", "28", "26130", "310", "1", "2.0", "7.38", null, null, null, "0.15", "0.40", null, "0.03", "0.003", "1.2", null, null, "0", null ]
+, [ "row-j8w9~p2np.e6uu", "00000000-0000-0000-3DF9-05C41895611B", 0, 1660681497, null, 1660681497, null, "{ }", "1124", "2019-07-17T00:00:00.000", "IBAL", "1", "7.77", "18.6", "106", "239", "58.9", "233", "38730", "11,000", "2", "6.0", "8.18", null, null, null, "0.74", "1.40", null, "0.26", "0.018", "2.8", null, null, "50", null ]
+, [ "row-jfq3-himt.vtad", "00000000-0000-0000-34F1-38AB7C42E534", 0, 1660681497, null, 1660681497, null, "{ }", "1122", "2019-07-17T00:00:00.000", "IBAL", "1", "7.73", "19.0", "56", "128", "7.76", "22", "46110", "9,900", "2", "4.0", "8.20", null, null, null, "0.24", "0.40", null, "0.06", "0.012", "1.0", null, null, "9", null ]
+, [ "row-7z4u_43nj_x9yi", "00000000-0000-0000-5D14-266578AC6516", 0, 1660681497, null, 1660681497, null, "{ }", "1123", "2019-07-17T00:00:00.000", "IBAL", "1", "8.48", "22.9", "33", "70", "5.40", "50", "23590", "100", "1", "3", "7.28", null, null, null, "0.08", "0.60", null, "0.07", "0.010", "2.5", null, null, "0", null ]
+, [ "row-345a-kabv-6amd", "00000000-0000-0000-FC5E-B73F281AA767", 0, 1660681497, null, 1660681497, null, "{ }", "1124", "2019-08-14T00:00:00.000", "IBAL", "1", "7.95", "19.8", "131", "371", "18.1", "41", "61310", "22,820", "6", "10.0", "7.92", null, null, null, "0.36", "0.50", null, "0.09", "0.006", "1.4", null, null, "61", null ]
+, [ "row-cyhz.u7a5~fia8", "00000000-0000-0000-74DD-F03022984B1C", 0, 1660681497, null, 1660681497, null, "{ }", "1122", "2019-08-14T00:00:00.000", "IBAL", "1", "7.77", "19.9", "58", "166", "7.61", "17", "24810", "100", "1", "2.0", "7.71", null, null, null, "0.09", "0.40", null, "0.05", "0.006", "0.7", null, null, "12", null ]
+, [ "row-3ppi~krgq_semd", "00000000-0000-0000-2AB1-3204E0E40067", 0, 1660681497, null, 1660681497, null, "{ }", "1123", "2019-08-14T00:00:00.000", "IBAL", "1", "8.22", "21.3", "32", "89.8", "3.11", "12", "22470", "1,600", "1", "3", "7.87", null, null, null, "0.09", "0.30", null, "0.05", "0.003", "1.0", null, null, "0", null ]
+, [ "row-vkz2~napx_ub3t", "00000000-0000-0000-58B7-4896E3720169", 0, 1660681497, null, 1660681497, null, "{ }", "1124", "2019-09-27T00:00:00.000", "IBAL", "1", "7.86", "19.9", "103", "269", "7.76", "335", "43520", "10,430", "0", "2", "7.39", null, "5.0", null, "0.82", "2.40", null, "1.00", "0.014", "2.2", "107", null, "61", null ]
+, [ "row-a2g4~rs27.yhr2", "00000000-0000-0000-3A4F-534B5A1F912A", 0, 1660681497, null, 1660681497, null, "{ }", "1122", "2019-09-25T00:00:00.000", "IBAL", "1", "8.17", "19.6", "62", "161", "19.30", "7", "38730", "2,950", "0", "1", "7.43", null, "4.5", null, "0.09", "0.20", null, "0.04", "0.002", "0.4", "55", null, "12", null ]
+, [ "row-qy6r-2bum~75d8", "00000000-0000-0000-0B6F-6DC99078F976", 0, 1660681497, null, 1660681497, null, "{ }", "1123", "2019-09-25T00:00:00.000", "IBAL", "1", "8.20", "20.4", "34", "87", "3.70", "24", "98040", "410", "0", "1", "7.62", null, "1.7", null, "0.06", "0.40", null, "0.04", "0.006", "0.6", "37", null, "0", null ]
+, [ "row-j2ah~87r6.b63t", "00000000-0000-0000-2D78-D697D6209DC1", 0, 1660681497, null, 1660681497, null, "{ }", "1124", "2019-10-17T00:00:00.000", "IBAL", "1", "7.91", "18.4", "107", "274", "19.00", "73", "36540", "13,140", "3", "6", "6.82", null, "6.7", null, "0.29", "0.8", null, "0.16", "0.005", "1.2", "85", null, "48", "0.26" ]
+, [ "row-j77v-iamm_yezm", "00000000-0000-0000-9964-49BC3FED969F", 0, 1660681497, null, 1660681497, null, "{ }", "1122", "2019-10-17T00:00:00.000", "IBAL", "1", "7.72", "19.7", "60", "147", "4.7", "52", "77.01", "29,090", "1", "2", "7.17", null, "1.4", null, "0.06", "0.6", null, "0.04", "0.005", "2.6", "65", null, "5", "0.24" ]
+, [ "row-bada~uqrc~srhx", "00000000-0000-0000-AC53-BD2413FCDB2B", 0, 1660681497, null, 1660681497, null, "{ }", "1123", "2019-10-17T00:00:00.000", "IBAL", "1", "7.45", "18.8", "33", "78", "15.5", "42", "7760", "630", "1", "2", "8.10", null, "1.2", null, "0.36", "0.6", null, "0.09", "0.009", "2.8", "43", null, "0", "0.25" ]
+, [ "row-9sze_7unw_hnux", "00000000-0000-0000-9BDB-C3327A7E876D", 0, 1660681497, null, 1660681497, null, "{ }", "1124", "2019-11-13T00:00:00.000", "IBAL", "1", "7.90", "18.4", "89", "371", "40.60", "189", "36540", "15,290", "3", "4", "8.36", null, "3.8", null, "0.76", "1.5", null, "0.23", "0.016", "2.3", "90", null, "39", "0.40" ]
+, [ "row-k3g9.natj-dw6i", "00000000-0000-0000-828A-E645129F2AAB", 0, 1660681497, null, 1660681497, null, "{ }", "1122", "2019-11-13T00:00:00.000", "IBAL", "1", "7.93", "18.7", "55", "228", "9.34", "43", "22820", "5,210", "6", "13", "8.34", null, "2.0", null, "0.28", "0.3", null, "0.05", "0.007", "1.6", "62", null, "6", "0.26" ]
+, [ "row-tfw5~4pmk.z9i8", "00000000-0000-0000-35EB-5EB5AAA963BE", 0, 1660681497, null, 1660681497, null, "{ }", "1123", "2019-11-13T00:00:00.000", "IBAL", "1", "8.11", "20.6", "31", "126", "13.40", "29", "26130", "5,200", "1", "2", "9.35", null, "1.4", null, "0.15", "0.3", null, "0.06", "0.010", "1.6", "32", null, "0", "0.2" ]
+, [ "row-mjni_pma7~x7wj", "00000000-0000-0000-A323-5198EE8F9755", 0, 1660681497, null, 1660681497, null, "{ }", "1123", "2019-12-18T00:00:00.000", "IBAL", "1", "7.98", "18.0", "117", "360", "16.30", "64", "22470", "6,970", "1", "2", "8.38", null, "11.6", null, "0.29", "0.6", null, "0.14", "0.008", "1.6", "107", null, "70", "0.30" ]
+, [ "row-7bfj-u7fa_b3bs", "00000000-0000-0000-445A-CB7323E3A9C2", 0, 1660681497, null, 1660681497, null, "{ }", "1123", "2019-12-18T00:00:00.000", "IBAL", "1", "7.80", "18.7", "59", "190", "3.38", "5", "64880", "11,690", "1", "3", "8.24", null, "4.7", null, "0.14", "0.6", null, "0.07", "0.003", "0.3", "85", null, "7", "0.25" ]
+, [ "row-smge~rtk8_5v42", "00000000-0000-0000-09E7-B0F55AC26A06", 0, 1660681497, null, 1660681497, null, "{ }", "1123", "2019-12-18T00:00:00.000", "IBAL", "1", "7.76", "18.6", "30", "99", "34.40", "169", "241960", "27,550", "1", "3", "8.00", null, "1.1", null, "0.33", "0.3", null, "0.15", "0.016", "2.9", "29", null, "0", "0.25" ]
+, [ "row-tnsn_iysp-69m3", "00000000-0000-0000-78C5-7DF3F549C671", 0, 1660681497, null, 1660681497, null, "{ }", "1124", "2020-05-22T00:00:00.000", "IBAL", "1", "8.400", "20.700", "149.000", "372.000", "5.310", "44.000", "61310.000", "7,380.000", "3.000", "6.000", "7.400", null, "6.100", null, "0.250", "0.300", null, "0.020", "0.009", "2.800", "145.000", null, "63.000", "0.450" ]
+, [ "row-q2nf-wjai-ipiw", "00000000-0000-0000-CC1A-37140B159552", 0, 1660681497, null, 1660681497, null, "{ }", "1122", "2020-05-22T00:00:00.000", "IBAL", "1", "8.330", "20.800", "70.000", "173.000", "2.550", "25.000", "86640.000", "2,690.000", "2.000", "4.000", "7.500", null, "5.700", null, "0.110", "0.100", null, "0.010", "0.006", "2.500", "65.000", null, "8.000", "0.310" ]
+, [ "row-jh8f.3xcw-et67", "00000000-0000-0000-5DCD-3553F1B89DAC", 0, 1660681497, null, 1660681497, null, "{ }", "1123", "2020-05-22T00:00:00.000", "IBAL", "1", "7.950", "21.000", "36.000", "85.000", "4.440", "30.000", "7030.000", "100.000", "1.000", "0.000", "7.380", null, "0.800", null, "0.030", "0.100", null, "0.130", "0.006", "1.000", "35.000", null, "0.000", "0.200" ]
+, [ "row-g4w5~2eeh.vxa6", "00000000-0000-0000-9F88-2C9686895191", 0, 1660681497, null, 1660681497, null, "{ }", "1124", "2020-06-10T00:00:00.000", "IBAL", "1", "8.120", "19.900", "133.000", "336.000", "6.310", "38.000", "30760", "6,630", "2.000", "4.000", "8.390", null, "3.500", "0.32", "0.230", "0.500", null, "0.220", "0.005", "1.200", "152.000", null, "62.000", "0.380" ]
+, [ "row-5n8m.mn5t-af3k", "00000000-0000-0000-2763-41E9210C40BC", 0, 1660681497, null, 1660681497, null, "{ }", "1122", "2020-06-10T00:00:00.000", "IBAL", "1", "8.000", "19.700", "58.000", "152.000", "2.670", "22.000", "68670", "5,980", "1.000", "2.000", "8.330", null, "0.900", "0.03", "0.050", "0.300", null, "0.070", "0.004", "0.800", "59.000", null, "8.000", "1.670" ]
+, [ "row-fcg2-ruga~eg8r", "00000000-0000-0000-62DF-3FEB5C31A59E", 0, 1660681497, null, 1660681497, null, "{ }", "1123", "2020-06-10T00:00:00.000", "IBAL", "1", "7.470", "19.300", "33.000", "86.000", "7.120", "28.000", "98040", "520.000", "0.000", "1.000", "7.880", null, "0.700", "0.03", "0.140", "0.500", null, "0.050", "0.007", "1.100", "32.000", null, "0.000", "0.380" ]
+, [ "row-wumn.ud2e.h6k2", "00000000-0000-0000-05B8-FF37EC700266", 0, 1660681497, null, 1660681497, null, "{ }", "1124", "2020-07-15T00:00:00.000", "IBAL", "1", "8.08", "18.9", "121.000", "351.00", "8.260", "43.000", "46110.000", "9,580.000", "2.000", "300.000", "8.430", null, "8.000", "0.280", "0.47", "0.400", null, "0.090", "0.004", "1.300", "98.000", null, "51.000", "0.310" ]
+, [ "row-quct_snap_kffd", "00000000-0000-0000-220C-A6B3953459EF", 0, 1660681497, null, 1660681497, null, "{ }", "1122", "2020-07-15T00:00:00.000", "IBAL", "1", "7.94", "18.8", "59.000", "175.00", "3.390", "18.000", "32550.000", "2,230.000", "0.000", "1.000", "8.500", null, "2.800", "0.230", "0.14", "0.040", null, "0.070", "0.001", "1.200", "52.000", null, "0.000", "0.350" ]
+, [ "row-p5i8_svaf~w6ce", "00000000-0000-0000-47A2-1807ECEB905C", 0, 1660681497, null, 1660681497, null, "{ }", "1123", "2020-07-15T00:00:00.000", "IBAL", "1", "7.82", "19.6", "33.000", "100.00", "4.030", "23.000", "16580.000", "100.000", "0.000", "1.000", "7.780", null, "2.600", "0.070", "0.14", "0.500", null, "0.040", "0.005", "0.900", "31.000", null, "0.000", "0.450" ]
+, [ "row-grmi_gy2x_n2jt", "00000000-0000-0000-3649-D16599FE3242", 0, 1660681497, null, 1660681497, null, "{ }", "1124", "2020-08-19T00:00:00.000", "IBAL", "1", "7.900", "18.500", "119.000", "338.00", "8.620", "40.000", "77010", "14,210", "1.000", "2.000", "8.280", null, "6.6", "0.300", "0.45", "0.500", null, "0.070", "0.011", "0.700", "127.000", null, "51.000", "0.440" ]
+, [ "row-wibn.dira_ikmb", "00000000-0000-0000-C2A8-B8FA27E2670C", 0, 1660681497, null, 1660681497, null, "{ }", "1122", "2020-08-19T00:00:00.000", "IBAL", "1", "7.730", "18.800", "50.000", "180.00", "4.500", "22.000", "61310", "3,230", "1.000", "2.000", "8.150", null, "2.7", "0.180", "0.16", "0.700", null, "0.060", "0.005", "0.800", "67.000", null, "6.000", "0.290" ]
+, [ "row-gkb7-idb9_32sr", "00000000-0000-0000-BAA6-3038C5041B0B", 0, 1660681497, null, 1660681497, null, "{ }", "1123", "2020-08-19T00:00:00.000", "IBAL", "1", "7.770", "20.200", "35.000", "104.00", "6.260", "27.000", "38730", "310", "3.000", "5.000", "8.140", null, "1.5", "0.220", "0.13", "0.900", null, "0.060", "0.005", "0.700", "22.000", null, "0.000", "0.200" ]
+, [ "row-aqyf.tekg.7upd", "00000000-0000-0000-0C21-FA5399EAEC59", 0, 1660681497, null, 1660681497, null, "{ }", "1124", "2020-09-16T00:00:00.000", "IBAL", "1", "8.050", "18.700", "129.000", "361.000", "10.500", "34.000", "51720.000", "11,190.000", "1.000", "3.000", "8.270", null, "5.800", "0.040", "0.540", "0.400", null, "0.090", "0.004", "0.900", "137.000", null, "55.000", "0.250" ]
+, [ "row-vh7n~tju3_fqh5", "00000000-0000-0000-1534-8DE5AC4C0E3B", 0, 1660681497, null, 1660681497, null, "{ }", "1122", "2020-09-16T00:00:00.000", "IBAL", "1", "7.780", "19.600", "65.000", "215.000", "5.750", "18.000", "81640.000", "1,210.000", "1.000", "2.000", "8.390", null, "5.800", "0.870", "0.130", "0.500", null, "0.050", "0.004", "1.000", "73.000", null, "9.000", "0.160" ]
+, [ "row-7rew~fu6t-auyp", "00000000-0000-0000-037D-8CED83E5295C", 0, 1660681497, null, 1660681497, null, "{ }", "1123", "2020-09-16T00:00:00.000", "IBAL", "1", "7.790", "19.000", "35.000", "99.000", "4.810", "33.000", "41060.000", "410.000", "1.000", "1.000", "7.810", null, "1.700", "0.090", "0.240", "0.200", null, "0.060", "0.005", "1.200", "22.000", null, "0.000", "0.180" ]
+, [ "row-6g2r~hcnt~4hwt", "00000000-0000-0000-B597-98F403697708", 0, 1660681497, null, 1660681497, null, "{ }", "1124", "2020-10-14T00:00:00.000", "IBAL", "1", "8.100", "20.700", "125.000", "358.000", "6.560", "41.0000", "43520.000", "9,320.000", "1.000", "3.000", "7.790", null, "5.500", "0.920", "0.42", "0.500", null, "0.090", "0.003", "0.500", "72.000", null, "54.000", "0.270" ]
+, [ "row-rqi3.2xa2~u2tp", "00000000-0000-0000-A133-89E345D73D5E", 0, 1660681497, null, 1660681497, null, "{ }", "1122", "2020-10-14T00:00:00.000", "IBAL", "1", "7.970", "20.800", "73.000", "214.000", "6.760", "12.0000", "241960.000", "2,260.000", "0.000", "1.000", "7.920", null, "11.000", "0.890", "0.16", "0.500", null, "0.080", "0.002", "0.600", "66.000", null, "13.000", "0.210" ]
+, [ "row-sp8g-3i9t-338m", "00000000-0000-0000-717B-2F1E58031891", 0, 1660681497, null, 1660681497, null, "{ }", "1123", "2020-10-14T00:00:00.000", "IBAL", "1", "7.860", "19.000", "35.000", "99.900", "4.330", "24.0000", "20460.000", "310.000", "0.000", "0.000", "8.100", null, "0.900", "0.600", "0.13", "0.100", null, "0.020", "0.002", "0.500", "26.000", null, "0.000", "0.390" ]
+, [ "row-mskw.wg8g~gqv7", "00000000-0000-0000-A413-D6CE80897980", 0, 1660681497, null, 1660681497, null, "{ }", "1124", "2020-11-18T00:00:00.000", "IBAL", "1", "8.090", "18.200", "95.000", "267.000", "54.400", "319.0000", "57940.000", "11,780.000", "6.000", "9.000", "8.370", null, "5.800", "0.440", "0.59", "1.000", null, "0.300", "0.018", "2.800", "114.000", null, "46.000", "0.360" ]
+, [ "row-69rp~yk34-q82t", "00000000-0000-0000-7E83-88FFF02E54CD", 0, 1660681497, null, 1660681497, null, "{ }", "1122", "2020-11-18T00:00:00.000", "IBAL", "1", "7.930", "18.600", "60.000", "173.000", "8.970", "94.0000", "77010.000", "1,970.000", "3.000", "4.000", "8.210", null, "6.300", "0.400", "0.33", "0.300", null, "0.020", "0.004", "0.500", "59.000", null, "8.000", "0.270" ]
+, [ "row-s9we-f9qm~29cu", "00000000-0000-0000-5842-0653BD375F93", 0, 1660681497, null, 1660681497, null, "{ }", "1123", "2020-11-18T00:00:00.000", "IBAL", "1", "7.830", "18.500", "33.000", "94.700", "6.000", "35.0000", "51720.000", "200.000", "1.000", "5.000", "7.970", null, "1.200", "0.240", "0.20", "0.600", null, "0.070", "0.004", "0.700", "33.000", null, "0.000", "0.230" ]
+, [ "row-6u8f~aaif~etkw", "00000000-0000-0000-7C00-002765EFE91D", 0, 1660681497, null, 1660681497, null, "{ }", "1124", "2020-12-16T00:00:00.000", "IBAL", "1", "8.02", "18.0", "133.000", "360.000", "6.000", "29.000", "81640.000", "14,970.000", "0.000", "1.000", "8.590", null, "5.700", "0.050", "0.360", "0.600", null, "0.050", "0.006", "1.100", "135.000", null, "60.000", "0.020" ]
+, [ "row-95hw-d8x2.8u9a", "00000000-0000-0000-AD07-FEA60F0FC81F", 0, 1660681497, null, 1660681497, null, "{ }", "1122", "2020-12-16T00:00:00.000", "IBAL", "1", "7.74", "18.6", "58.000", "164.000", "6.460", "31.000", "86640.000", "2,620.000", "0.000", "1.000", "8.640", null, "2.900", "0.040", "0.160", "0.500", null, "0.040", "0.008", "1.200", "77.000", null, "6.000", "0.020" ]
+, [ "row-rm96-u99g~rm5s", "00000000-0000-0000-E2BA-AF5A91D8E631", 0, 1660681497, null, 1660681497, null, "{ }", "1123", "2020-12-16T00:00:00.000", "IBAL", "1", "7.50", "20.8", "31.000", "85.000", "30.500", "122.000", "43520.000", "1,810.000", "0.000", "1.000", "8.100", null, "1.800", "0.040", "0.220", "1.600", null, "0.230", "0.003", "0.090", "32.000", null, "0.000", "0.080" ]
+, [ "row-yvdm_4h5n~zqte", "00000000-0000-0000-CB8C-25D08A5CAAE8", 0, 1660681497, null, 1660681497, null, "{ }", "1124", "2021-01-20T00:00:00.000", "IBAL", "1", "7.9500", "18.300", "134.000", "372.000", "5.200", "26.000", "54750", "10,390", "1.000", "3.000", "8.480", null, "7.600", "0.130", "0.330", "0.500", null, "0.080", "0.009", "2.000", "140.000", null, "63.000", "0.360" ]
+, [ "row-xh42.ystp.btaf", "00000000-0000-0000-D577-62A86F51555A", 0, 1660681497, null, 1660681497, null, "{ }", "1122", "2021-01-20T00:00:00.000", "IBAL", "1", "7.8800", "19.000", "50.000", "168.000", "3.930", "18.000", "120330", "1,190", "1.000", "2.000", "8.270", null, "3.400", "0.060", "0.140", "0.500", null, "0.010", "0.003", "2.200", "72.000", null, "7.000", "0.210" ]
+, [ "row-7kw7.t6q5-vi3q", "00000000-0000-0000-5D86-3D7F38E43512", 0, 1660681497, null, 1660681497, null, "{ }", "1123", "2021-01-20T00:00:00.000", "IBAL", "1", "7.8500", "19.200", "33.000", "91.000", "4.520", "22.000", "26130", "310", "0.000", "1.000", "7.710", null, "1.800", "0.150", "0.110", "5.000", null, "0.010", "0.005", "1.300", "32.000", null, "0.000", "0.190" ]
+, [ "row-nd3r~nnbn_nhyz", "00000000-0000-0000-1C2E-538A3B319326", 0, 1660681497, null, 1660681497, null, "{ }", "1124", "2021-02-17T00:00:00.000", "IBAL", "1", "7.430", "17.800", "140.000", "390.000", "7.430", "32.000", "141360.000", "32,550.000", "0.000", "1.000", "8.830", null, "10.400", "0.080", "0.430", "0.400", null, "0.100", "0.006", "1.000", "142.000", null, "62.000", "0.300" ]
+, [ "row-zjyw~hk5k_8rxz", "00000000-0000-0000-59A9-F9EFE27FEA44", 0, 1660681497, null, 1660681497, null, "{ }", "1122", "2021-02-17T00:00:00.000", "IBAL", "1", "4.370", "18.600", "61.000", "175.000", "4.370", "18.000", "41060.000", "1,810.000", "0.000", "1.000", "8.430", null, "5.700", "0.200", "0.150", "0.300", null, "0.110", "0.005", "0.700", "55.000", null, "10.000", "0.260" ]
+, [ "row-mh7y_35ym-dnec", "00000000-0000-0000-2659-A6024CE62414", 0, 1660681497, null, 1660681497, null, "{ }", "1123", "2021-02-17T00:00:00.000", "IBAL", "1", "3.990", "18.500", "32.000", "92.000", "3.990", "24.000", "54750.000", "410.000", "1.000", "3.000", "8.370", null, "2.200", "0.070", "0.160", "0.200", null, "0.060", "0.008", "1.200", "28.000", null, "0.000", "0.400" ]
+, [ "row-g7fz~547x.edv6", "00000000-0000-0000-23C7-FDDAAEB5C7BA", 0, 1660681497, null, 1660681497, null, "{ }", "1124", "2021-03-17T00:00:00.000", "IBAL", "1", "8.010", "17.100", "97.00", "242.00", "87.800", "334.000", "108988.000", "4,590.000", "16.000", "26.000", "8.580", null, "6.600", "0.26", "0.430", "2.500", null, "0.32", "0.008", "1.700", "100.000", null, "45.000", "0.200" ]
+, [ "row-8sju_jbz6~6mqw", "00000000-0000-0000-6289-8ABB5ED516B0", 0, 1660681497, null, 1660681497, null, "{ }", "1122", "2021-03-17T00:00:00.000", "IBAL", "1", "8.020", "18.000", "62.000", "155.000", "122.500", "449.000", "117876.000", "4,958.000", "2.000", "5.000", "8.460", null, "5.600", "0.23", "0.060", "0.900", null, "0.06", "0.008", "1.400", "105.000", null, "38.000", "0.010" ]
+, [ "row-z664-tmyd.nvzs", "00000000-0000-0000-34F3-3302A5EF38FD", 0, 1660681497, null, 1660681497, null, "{ }", "1123", "2021-03-17T00:00:00.000", "IBAL", "1", "7.970", "21.200", "33.000", "81.000", "4.840", "30.000", "31435.000", "100.000", "4.000", "10.000", "7.680", null, "2.800", "0.21", "0.100", "0.100", null, "0.16", "0.006", "0.500", "66.000", null, "0.000", "0.010" ]
+, [ "row-u69j.n3t6.26yf", "00000000-0000-0000-DFA6-60181364260B", 0, 1660681497, null, 1660681497, null, "{ }", "1124", "2021-04-21T00:00:00.000", "IBAL", "1", "8.160", "19.100", "123.000", "336.00", "9.760", "58.000", "111990.000", "13,540.000", "2.000", "3.000", "8.330", null, "6.700", "0.680", "0.620", "1.900", null, "0.100", "0.008", "0.800", "130.000", null, "51.000", "0.470" ]
+, [ "row-66vi.rit2~rhhg", "00000000-0000-0000-272E-043028480CCE", 0, 1660681497, null, 1660681497, null, "{ }", "1122", "2021-04-21T00:00:00.000", "IBAL", "1", "7.900", "19.600", "55.000", "155.00", "4.340", "33.000", "77010.000", "1,520.000", "3.000", "7.000", "7.980", null, "3.800", "0.540", "0.230", "1.500", null, "0.050", "0.006", "0.900", "60.000", null, "6.000", "0.320" ]
+, [ "row-wwmx_shaa-c6az", "00000000-0000-0000-CA41-EF665BDC3F5F", 0, 1660681497, null, 1660681497, null, "{ }", "1123", "2021-03-23T00:00:00.000", "IBAL", "1", "7.950", "20.600", "31.000", "88.400", "5.290", "31.000", "38730.000", "200.000", "1.000", "2.000", "7.510", null, "2.000", "0.200", "0.180", "0.300", null, "0.070", "0.005", "0.900", "28.000", null, "0.000", "0.200" ]
+, [ "row-p78c-yx82_mexx", "00000000-0000-0000-06BC-56DB71C81498", 0, 1660681497, null, 1660681497, null, "{ }", "1124", "2021-05-26T00:00:00.000", "IBAL", "1", "7.70", "18.6", "91.000", "239", "481.000", "1212.000", "86640.000", "9,100.000", "***", "***", "8.090", null, "5.000", "0.320", "0.57", "5.000", null, "0.900", "0.007", "1.500", "96.000", null, "45.000", "0.740" ]
+, [ "row-cgbk~ryyn_8svw", "00000000-0000-0000-1752-CFA5820A4276", 0, 1660681497, null, 1660681497, null, "{ }", "1122", "2021-05-26T00:00:00.000", "IBAL", "1", "7.69", "18.9", "55.000", "152", "7.300", "24.000", "86640.000", "3,890.000", "***", "***", "7.980", null, "1.800", "0.320", "0.24", "0.500", null, "0.070", "0.007", "1.300", "60.000", null, "7.000", "0.320" ]
+, [ "row-m7m6.ndxu~3ax6", "00000000-0000-0000-1AD5-2CB6D605B2C1", 0, 1660681497, null, 1660681497, null, "{ }", "1123", "2021-05-26T00:00:00.000", "IBAL", "1", "7.64", "18.0", "31.000", "81.3", "12.100", "52.000", "77010.000", "310.000", "***", "***", "8.680", null, "0.800", "0.350", "0.12", "0.900", null, "0.100", "0.011", "2.300", "25.000", null, "1.000", "0.270" ]
+, [ "row-f4su~fmrd~6bzp", "00000000-0000-0000-4E60-7999C44C253D", 0, 1660681497, null, 1660681497, null, "{ }", "1124", "2021-06-16T00:00:00.000", "IBAL", "1", "7.970", "19.200", "79.000", "231.000", "119.000", "540.000", "98040.000", "6,500.000", "2.000", "5.000", "8.720", null, "3.700", "0.160", "0.440", "1.700", null, "0.730", "0.013", "2.900", "93.000", null, "42.000", "0.530" ]
+, [ "row-zjbr-te6t~u29h", "00000000-0000-0000-77B6-05CB88EBD0A1", 0, 1660681497, null, 1660681497, null, "{ }", "1122", "2021-06-16T00:00:00.000", "IBAL", "1", "7.980", "20.100", "51.000", "151.000", "13.000", "89.000", "72700.000", "1,710.000", "3.000", "6.000", "8.350", null, "2.000", "0.260", "0.510", "0.600", null, "0.140", "0.008", "2.700", "53.000", null, "5.000", "0.380" ]
+, [ "row-xp6u.b3fc~bxxp", "00000000-0000-0000-72DB-17D0C716FBD3", 0, 1660681497, null, 1660681497, null, "{ }", "1123", "2021-06-16T00:00:00.000", "IBAL", "1", "7.820", "20.600", "29.000", "84.200", "9.230", "36.000", "54750.000", "200.000", "1.000", "6.000", "6.140", null, "1.000", "0.340", "0.330", "0.200", null, "0.100", "0.008", "1.400", "28.000", null, "0.000", "0.380" ]
+, [ "row-g2h6~hmn6-v2kw", "00000000-0000-0000-BAB8-8390DB067196", 0, 1660681497, null, 1660681497, null, "{ }", "1124", "2021-07-28T00:00:00.000", "IBAL", "1", "7.870", "18.500", "93.000", "234.000", "80.200", "380.000", "24810.000", "7,670.000", "3.000", "5.000", "8.420", null, "6.500", "0.110", "0.780", "1.600", null, "0.410", "0.007", "1.200", "130.000", null, "47.000", "0.270" ]
+, [ "row-eybp~qa4a.fuux", "00000000-0000-0000-7EC1-8091DC6979FD", 0, 1660681497, null, 1660681497, null, "{ }", "1122", "2021-07-28T00:00:00.000", "IBAL", "1", "7.840", "18.700", "55.000", "136.000", "15.800", "76.000", "57940.000", "2,430.000", "3.000", "6.000", "7.990", null, "2.900", "0.020", "0.270", "0.500", null, "0.140", "0.005", "1.500", "66.000", null, "6.000", "0.140" ]
+, [ "row-y6pj~tz53~u6gy", "00000000-0000-0000-1771-199798B7FAD2", 0, 1660681497, null, 1660681497, null, "{ }", "1123", "2021-07-28T00:00:00.000", "IBAL", "1", "7.950", "20.200", "30.000", "74.100", "25.500", "85.000", "34480.000", "980.000", "4.000", "6.000", "7.790", null, "1.700", "0.120", "0.370", "0.500", null, "0.100", "0.016", "1.300", "26.000", null, "2.000", "0.140" ]
+, [ "row-7uk9-vx6x.2x4g", "00000000-0000-0000-98DA-E9C81F81329A", 0, 1660681497, null, 1660681497, null, "{ }", "1124", "2021-08-25T00:00:00.000", "IBAL", "1", "7.930", "18.700", "89.000", "223.000", "54.500", "288.000", "12230.000", "5,384.000", "2.000", "13.000", "8.910", null, "0.58", "0.610", "0.58", "2.700", null, "0.290", "0.008", "1.200", "88.0000", null, "42.00", "0.480" ]
+, [ "row-knxe~qx2a-9z7p", "00000000-0000-0000-7095-AC3E83500C9A", 0, 1660681497, null, 1660681497, null, "{ }", "1122", "2021-08-25T00:00:00.000", "IBAL", "1", "7.760", "19.000", "51.000", "128.000", "22.700", "149.000", "48840.000", "6,770.000", "1.000", "2.000", "8.450", null, "0.330", "0.160", "0.330", "1.600", null, "0.130", "0.007", "1.500", "48.0000", null, "7.00", "0.250" ]
+, [ "row-3tn9.qk69~egju", "00000000-0000-0000-195E-02881632310A", 0, 1660681497, null, 1660681497, null, "{ }", "1123", "2021-08-25T00:00:00.000", "IBAL", "1", "7.760", "19.100", "28.000", "70.200", "13.900", "66.000", "12740.000", "100.000", "0.000", "1.000", "6.850", null, "0.440", "0.440", "0.440", "0.200", null, "0.110", "0.007", "1.600", "38.0000", null, "0.00", "0.370" ]
+, [ "row-28ft~iwrd~a29v", "00000000-0000-0000-5B91-DA4B01A69737", 0, 1660681497, null, 1660681497, null, "{ }", "1124", "2021-08-29T00:00:00.000", "IBAL", "1", "7.700", "18.000", "89.000", "223.000", "578.000", "1500.000", "241960.000", "10,430.000", "3.000", "1.000", "8.290", null, "4.500", "0.010", "0.990", "4.600", null, "0.860", "0.005", "1.100", "88.000", null, "44.000", "0.560" ]
+, [ "row-d5ku_dein~n2vg", "00000000-0000-0000-5749-20E9680833BB", 0, 1660681497, null, 1660681497, null, "{ }", "1122", "2021-08-29T00:00:00.000", "IBAL", "1", "7.660", "18.100", "52.000", "131.000", "43.800", "134.000", "38730.000", "3,640.000", "2.000", "1.000", "7.780", null, "3.600", "0.130", "0.270", "0.400", null, "0.070", "0.006", "1.200", "45.000", null, "7.000", "0.220" ]
+, [ "row-cqrp-k6ak_rcji", "00000000-0000-0000-0A9F-B84E4FC7DD44", 0, 1660681497, null, 1660681497, null, "{ }", "1123", "2021-08-28T00:00:00.000", "IBAL", "1", "7.660", "19.700", "29.000", "74.900", "15.100", "71.000", "48840.000", "1,710.000", "1.000", "0.000", "8.250", null, "2.800", "0.030", "0.290", "0.400", null, "0.070", "0.007", "2.100", "26.000", null, "0.000", "0.180" ]
+, [ "row-32gq_wytz-xvrm", "00000000-0000-0000-A122-631B76ED159D", 0, 1660681497, null, 1660681497, null, "{ }", "1124", "2021-10-21T00:00:00.000", "IBAL", "1", "8.17", "55.9", "105.000", "275", "55.9", "263", "41060.000", "11,690.000", "2.000", "5.000", "101.600", null, "5.8", "0.070", "0.60", "1.800", null, "0.430", "0.011", "2.4", "106", null, "50", "0.380" ]
+, [ "row-g6fv~v3qj.9bj5", "00000000-0000-0000-66EE-409EC896CDF0", 0, 1660681497, null, 1660681497, null, "{ }", "1122", "2021-10-21T00:00:00.000", "IBAL", "1", "7.90", "14.7", "53.000", "135", "14.7", "95", "51720.000", "7,800.000", "1.000", "3.000", "100.900", null, "1.8", "0.100", "0.20", "0.500", null, "0.100", "0.010", "1.9", "95", null, "6", "0.210" ]
+, [ "row-yewr.wnaq_324q", "00000000-0000-0000-DDB8-57AE4652B884", 0, 1660681497, null, 1660681497, null, "{ }", "1123", "2021-10-20T00:00:00.000", "IBAL", "1", "7.89", "19.2", "29.000", "74.3", "8.66", "27", "6700.000", "100.000", "1.000", "3.000", "100.300", null, "1.2", "0.130", "0.06", "0.400", null, "0.030", "0.009", "0.8", "23", null, "0.000", "0.230" ]
+, [ "row-bujv-pvks~h58z", "00000000-0000-0000-073D-9D9384465B46", 0, 1660681497, null, 1660681497, null, "{ }", "1124", "2021-11-12T00:00:00.000", "IBAL", "1", "8.09", "17.8", "103.000", "259", "163", "552", "17850", "2,590", "1.000", "3.000", "8.710", null, "5.3", "0.300", "0.71", "3.400", null, "0.040", "0.006", "1.5", "109", null, "45", "0.240" ]
+, [ "row-fn6r_ijb4_i43c", "00000000-0000-0000-C497-D0E660286CED", 0, 1660681497, null, 1660681497, null, "{ }", "1122", "2021-11-12T00:00:00.000", "IBAL", "1", "8.10", "17.9", "53.000", "260", "14.9", "60", "61310", "1,080", "1.000", "2.000", "8.720", null, "1.9", "0.550", "0.33", "1.200", null, "0.070", "0.012", "2.1", "53", null, "6", "0.130" ]
+, [ "row-tkgr-ucfe.e2jd", "00000000-0000-0000-50F8-EB636EEA6FC7", 0, 1660681497, null, 1660681497, null, "{ }", "1123", "2021-11-12T00:00:00.000", "IBAL", "1", "7.65", "18.3", "30.000", "76.0", "7.37", "46", "17850", "630", "1.000", "2.000", "8.510", null, "1.1", "0.550", "0.22", "0.900", null, "0.030", "0.010", "1.0", "22", null, "1", "0.370" ]
+, [ "row-m4y5_rqyy_m5i6", "00000000-0000-0000-3599-E2D3CADA8413", 0, 1660681497, null, 1660681497, null, "{ }", "1124", "2021-12-15T00:00:00.000", "IBAL", "1", "8.16", "18.4", "118.000", "300", "15.6", "101", "38730", "11,530", "2.000", "4.000", "8.250", null, "4.7", "0.240", "0.49", "0.400", null, "0.120", "0.008", "2.0", "113", null, "56", "0.300" ]
+, [ "row-82m4-47u5~qsk8", "00000000-0000-0000-6B39-C512BEB3B102", 0, 1660681497, null, 1660681497, null, "{ }", "1122", "2021-12-15T00:00:00.000", "IBAL", "1", "7.93", "18.7", "55.000", "140", "3.46", "25", "61310", "4,640", "3.000", "5.000", "8.060", null, "2.1", "0.540", "0.19", "0.100", null, "0.030", "0.003", "0.8", "50", null, "4", "0.180" ]
+, [ "row-yc2z_mzm4~vduv", "00000000-0000-0000-6FC6-22776767869B", 0, 1660681497, null, 1660681497, null, "{ }", "1123", "2021-12-15T00:00:00.000", "IBAL", "1", "7.84", "21.7", "30.000", "77.3", "5.70", "23", "43520", "200", "0.000", "1.000", "6.980", null, "2.5", "0.100", "0.20", "0.300", null, "0.130", "0.008", "1.1", "20", null, "0", "0.370" ]
+, [ "row-ttbe_trcq~gmsx", "00000000-0000-0000-265F-5A206CBBB66B", 0, 1660681497, null, 1660681497, null, "{ }", "1124", "2022-01-19T00:00:00.000", "IBAL", "1", "8.1800", "17.300", "133.000", "341.000", "8.080", "50.000", "24810.000", "12,740.000", "5.000", "13.000", "8.010", "0.00", "4.600", "0.800", "0.380", "6.000", "0.00", "0.100", "0.008", "1.000", "127.000", "0", "64.000", "0.400" ]
+, [ "row-7c6z.k4zg~e2g6", "00000000-0000-0000-067B-7D90C289938A", 0, 1660681497, null, 1660681497, null, "{ }", "1122", "2022-01-19T00:00:00.000", "IBAL", "1", "7.9500", "18.700", "57.000", "144.000", "3.130", "14.000", "20980.000", "1,870.000", "1.000", "2.000", "7.930", "0.00", "3.700", "0.400", "0.360", "0.300", "0.00", "0.020", "0.004", "0.700", "45.000", "0", "3.000", "0.380" ]
+, [ "row-na7t-ez8i_u67g", "00000000-0000-0000-5EAC-82CF022117C0", 0, 1660681497, null, 1660681497, null, "{ }", "1123", "2022-01-19T00:00:00.000", "IBAL", "1", "7.9500", "18.700", "31.000", "78.400", "5.140", "30.000", "5910.000", "200.000", "4.000", "7.000", "7.550", "0.00", "0.600", "0.320", "0.230", "7.000", "0.00", "0.050", "0.008", "2.100", "28.000", "0", "0.000", "0.420" ]
+, [ "row-vprw_8rb4~jik7", "00000000-0000-0000-B50C-0F981330AF13", 0, 1660681497, null, 1660681497, null, "{ }", "1124", "2022-02-16T00:00:00.000", "IBAL", "1", "8.210", "18.400", "142.000", "369.000", "6.980", "66.000", "24810.000", "9,310.000", "2.000", "4.000", "8.200", "0.00", "4.9", "0.050", "0.350", "0.400", "0.00", "0.070", "0.009", "1.200", "139.000", "0", "62.000", "0.370" ]
+, [ "row-q6gr.zzxz_4m3e", "00000000-0000-0000-B0FC-EB35053460C1", 0, 1660681497, null, 1660681497, null, "{ }", "1122", "2022-02-16T00:00:00.000", "IBAL", "1", "8.100", "19.100", "56.000", "146.000", "1.380", "16.000", "27230.000", "1,450.000", "2.000", "3.000", "8.100", "0.00", "2.7", "0.400", "0.210", "0.200", "0.00", "0.030", "0.006", "1.000", "57.000", "0", "9.000", "0.270" ]
+, [ "row-ezek~kx5s~445n", "00000000-0000-0000-A2C0-07156996C7A0", 0, 1660681497, null, 1660681497, null, "{ }", "1123", "2022-02-16T00:00:00.000", "IBAL", "1", "7.580", "20.100", "32.000", "93.60", "3.450", "23.000", "14830.000", "310.000", "1.000", "2.000", "7.280", "0.00", "0.8", "0.090", "0.310", "0.400", "0.00", "0.010", "0.004", "0.500", "23.000", "0", "0.000", "0.190" ]
+, [ "row-x9qq_7b5n_eh4a", "00000000-0000-0000-FC8A-79B823C5A9F3", 0, 1660681497, null, 1660681497, null, "{ }", "1124", "2022-03-15T00:00:00.000", "IBAL", "1", "8.07", "18.5", "130.000", "321", "34.3", "232", "32550", "9,090", "1.000", "2.000", "7.370", null, "5.2", "0.100", "0.81", "0.033", null, "0.220", "0.017", "2.300", "138.00", null, "60.00", "0.500" ]
+, [ "row-qxgj-3mkb.vuie", "00000000-0000-0000-F291-CA2FCC1AFCA2", 0, 1660681497, null, 1660681497, null, "{ }", "1122", "2022-03-15T00:00:00.000", "IBAL", "1", "7.86", "18.6", "55.000", "136", "37.1", "246", "38730", "9,850", "0.000", "1.000", "6.770", null, "4.9", "0.160", "0.95", "0.035", null, "0.270", "0.012", "2.600", "51.00", null, "12.00", "0.420" ]
+, [ "row-9ce4_5m2e.eqxc", "00000000-0000-0000-0C37-9C43697F8B97", 0, 1660681497, null, 1660681497, null, "{ }", "1123", "2022-03-15T00:00:00.000", "IBAL", "1", "8.13", "19.4", "31.000", "76.3", "6.09", "38", "12590", "200", "2.000", "6.000", "7.950", null, "1.1", "0.080", "0.47", "0.022", null, "0.070", "0.008", "1.200", "26.00", null, "0.00", "0.300" ]
+, [ "row-nexu-iscs-chg9", "00000000-0000-0000-E9E1-A8F58A4DEFD9", 0, 1660681497, null, 1660681497, null, "{ }", "1124", "2022-04-27T00:00:00.000", "IBAL", "1", "8.170", "20.200", "90.000", "228.000", "52.3000", "303.000", "26130.000", "3,050.000", "0.000", "1.000", "8.350", null, "5.800", "0.300", "0.490", "0.099", null, "0.350", "0.008", "1.700", "160.00", null, "41.00", "0.410" ]
+, [ "row-z7he.yj9x~z8f3", "00000000-0000-0000-F109-FBF3F2A12B1B", 0, 1660681497, null, 1660681497, null, "{ }", "1122", "2022-04-27T00:00:00.000", "IBAL", "1", "8.040", "20.000", "51.000", "131.000", "19.3000", "285.000", "61310.000", "520.000", "0.000", "1.000", "8.360", null, "2.200", "0.170", "0.420", "0.025", null, "0.130", "0.009", "2.000", "101.00", null, "5.00", "0.220" ]
+, [ "row-hi9w~uqke~8kpq", "00000000-0000-0000-4A0E-F7B29FB68734", 0, 1660681497, null, 1660681497, null, "{ }", "1123", "2022-04-29T00:00:00.000", "IBAL", "1", "8.230", "20.900", "28.000", "69.00", "13.8000", "104.000", "9330.000", "200.000", "6.000", "15.000", "8.790", null, "1.200", "0.270", "0.370", "0.037", null, "0.090", "0.008", "3.700", "40.00", null, "0.000", "0.230" ]
+, [ "row-xyb3_db94.2hdk", "00000000-0000-0000-4C2A-A285DEF7DA4D", 0, 1660681497, null, 1660681497, null, "{ }", "1124", "2022-05-25T00:00:00.000", "IBAL", "1", "7.940", "20.500", "89.000", "228.000", "60.400", "325.000", "54750.000", "3,130.000", "1.000", "2.000", "8.660", null, "2.500", "0.430", "0.950", "0.065", null, "0.200", "0.006", "1.400", "190.000", null, "30.000", "0.260" ]
+, [ "row-5dmn.42nr~pyup", "00000000-0000-0000-8CE6-33D12D3FC75F", 0, 1660681497, null, 1660681497, null, "{ }", "1122", "2022-05-25T00:00:00.000", "IBAL", "1", "7.740", "20.600", "50.000", "129.000", "37.100", "210.000", "86640.000", "5,760.000", "0.000", "1.000", "8.210", null, "1.500", "0.350", "0.480", "0.087", null, "0.210", "0.006", "1.500", "110.000", null, "2.000", "0.370" ]
+, [ "row-wfa9-itfe.c33m", "00000000-0000-0000-321F-28D95BBE1527", 0, 1660681497, null, 1660681497, null, "{ }", "1124", "2022-06-15T00:00:00.000", "IBAL", "1", "7.940", "18.600", "80.000", "204.000", "57.000", "484.00", "64880.000", "5,210.000", "0.000", "1.000", "8.580", null, "6.900", "0.250", "0.770", "0.037", null, "0.250", "0.004", "0.300", "180.000", null, "32.000", "0.370" ]
+, [ "row-ytb4_ejte.dc8v", "00000000-0000-0000-1E6E-E9A22CABB93A", 0, 1660681497, null, 1660681497, null, "{ }", "1122", "2022-06-15T00:00:00.000", "IBAL", "1", "7.780", "18.300", "50.000", "130.000", "24.000", "267.00", "77010.000", "4,570.000", "0.000", "1.000", "8.300", null, "2.300", "0.420", "0.630", "0.029", null, "0.100", "0.003", "0.200", "110.000", null, "2.000", "0.320" ]
+, [ "row-35pp_xeew.ywzs", "00000000-0000-0000-C843-71D9582E6A4D", 0, 1660681497, null, 1660681497, null, "{ }", "1124", "2022-07-13T00:00:00.000", "IBAL", "1", "8.010", "18.600", "99.000", "225.000", "221.000", "1480.000", "86640.000", "7,270.000", "8.000", "15.000", "8.440", null, "8.100", "0.210", "0.48", "0.332", null, "1.400", "0.012", "0.050", "225.000", null, "42.000", "0.960" ]
+, [ "row-i2zx-wpuh-vwa9", "00000000-0000-0000-56B2-A8EFE2C9D24B", 0, 1660681497, null, 1660681497, null, "{ }", "1122", "2022-07-13T00:00:00.000", "IBAL", "1", "8.050", "19.200", "53.000", "130.000", "11.3000", "86.000", "173290.000", "4,140.000", "0.000", "1.000", "8.460", null, "3.500", "0.120", "0.32", "0.163", null, "0.400", "0.016", "0.060", "130.000", null, "1.000", "0.210" ]
+, [ "row-8spf~usnt~d468", "00000000-0000-0000-A2CC-C0AD65EEEBE1", 0, 1660681497, null, 1660681497, null, "{ }", "1123", "2022-07-19T00:00:00.000", "IBAL", "1", "7.960", "19.600", "28.000", "74.600", "51.000", "278.000", "4960.000", "100.000", "0.000", "1.000", "7.890", null, "0.000", "0.120", "0.200", "0.011", null, "0.500", "0.010", "1.500", "48.000", null, "0.000", "0.180" ]
+ ]
+}
