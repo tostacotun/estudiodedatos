@@ -17,7 +17,10 @@ public class Main {
 /*        LectorImagenes test = new LectorImagenes();
         test.LectorImagenes();*/
 //        grafico de dispersion
-        GraficoDispersion test = new GraficoDispersion();
+       /* GraficoDispersion test = new GraficoDispersion();
+        test.lanzar();*/
+//        grafico de barras
+        GraficoBarras test = new GraficoBarras();
         test.lanzar();
 
 
