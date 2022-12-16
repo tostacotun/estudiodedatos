@@ -1,18 +1,25 @@
-import recursos.Lecturaconcsvapachecommons;
-import recursos.Lecturacsvsimple;
-
+import recursos.*;
 
 
 public class Main {
     public static void main(String[] args) {
-//        leyendo un texto simple
-       /* Lecturacsvsimple test = new Lecturacsvsimple();
+//        leyendo un texto simple leyendo un csv
+        /*Lecturacsvsimple test = new Lecturacsvsimple();
         test.Lecturacsvsimple();*/
-
-//        leyendo un csv
-//
-
+//        csv apache
+ /*       Lecturaconcsvapachecommons test = new Lecturaconcsvapachecommons();
+        test.parserApachaCommons();
+//        test.parseheader();*/
         // JSON
+ /*       LecturaJson test = new LecturaJson();
+        test.lectura_json();*/
+        // imagen
+/*        LectorImagenes test = new LectorImagenes();
+        test.LectorImagenes();*/
+//        grafico de dispersion
+        GraficoDispersion test = new GraficoDispersion();
+        test.lanzar();
+
 
 
     }

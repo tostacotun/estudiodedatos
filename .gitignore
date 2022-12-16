@@ -2,3 +2,5 @@
 target/
 .idea/
 src/test/
+#archivos
+.attach_*
